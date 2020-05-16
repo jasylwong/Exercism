@@ -18,9 +18,9 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Collatz Conjecture](./javascript/collatz-conjecture)
 - [Triangle](./javascript/triangle)
 - [Protein Translation](./javascript/protein-translation)
+- [All Your Base](./javascript/all-your-base)
 
 ### In progress
 
-- [All Your Base](./javascript/all-your-base)
 
 

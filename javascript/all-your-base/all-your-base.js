@@ -1,12 +1,8 @@
 export const convert = (arr, a, b) => {
   if (a <= 1 || a === undefined || a % 1 !== 0) { throw new Error('Wrong input base') }
   if (b <= 1 || b === undefined || b % 1 !== 0) { throw new Error('Wrong output base') }
-
-  if (arr.length === 0) { throw new Error('Input has wrong format') }
-  if (arr[0] === 0 && arr.length > 1) { throw new Error('Input has wrong format') }
-  if (arr.some(el => el < 0)) { throw new Error('Input has wrong format') }
-  if (arr.some(el => el >= a)) { throw new Error('Input has wrong format') }
-
+  
+  isWrongInputFormat(arr, a)
 
   const n = arr.length
   const total = arr.map((x,i) => arr[i] * a**(n-i-1)).reduce((a,b) => a + b, 0)
@@ -29,3 +25,21 @@ export const convert = (arr, a, b) => {
    
   return result
 };
+
+const isWrongInputFormat = (arr, base) => {
+  if (isEmpty(arr) || leadingZero(arr) || invalidDigits(arr, base)) {
+    { throw new Error('Input has wrong format') }
+  }
+}
+
+const isEmpty = (arr) => {
+  (arr.length === 0)
+}
+
+const leadingZero = (arr) => {
+  (arr[0] === 0 && arr.length > 1)
+}
+
+const invalidDigits = (arr, base) => {
+  (arr.some(el => el < 0 || el >= base))
+}
