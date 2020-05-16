@@ -4,16 +4,17 @@
 //
 
 export class Triangle {
-  constructor() {
-    throw new Error("Remove this statement and implement this function");
+  constructor(s1, s2, s3) {
+    this.sides = [s1, s2, s3]
   }
 
   isEquilateral() {
-    throw new Error("Remove this statement and implement this function");
+    return this.sides.every(side => side === this.sides[0] && side !== 0)
   }
 
   isIsosceles() {
-    throw new Error("Remove this statement and implement this function");
+    const sorted = this.sides.sort((a, b) => a - b)
+    return sorted[1] === sorted[2]
   }
 
   isScalene() {
