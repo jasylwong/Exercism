@@ -3,6 +3,47 @@
 // convenience to get you started writing code faster.
 //
 
-export const translate = () => {
-  throw new Error("Remove this statement and implement this function");
+// const translations = {
+//   Methionine: [AUG],
+//   Phenylalanine: [UUU, UUC],
+//   Leucine: [UUA, UUG],
+//   Serine: [UCU, UCC, UCA, UCG],
+//   Tyrosine: [UAU, UAC],
+//   Cysteine: [UGU, UGC],
+//   Tryptophan: [UGG],
+//   STOP: [UAA, UAG, UGA]
+// }
+
+const translations = {
+  AUG: 'Methionine',
+  UUU: 'Phenylalanine',
+  UUC: 'Phenylalanine',
+  UUA: 'Leucine',
+  UUG: 'Leucine',
+  UCU: 'Serine',
+  UCC: 'Serine',
+  UCA: 'Serine',
+  UCG: 'Serine',
+  UAU: 'Tyrosine',
+  UAC: 'Tyrosine',
+  UGU: 'Cysteine',
+  UGC: 'Cysteine',
+  UGG: 'Tryptophan',
+  UAA: 'STOP',
+  UAG: 'STOP',
+  UGA: 'STOP'
+}
+
+export const translate = (rna) => {
+  if (!rna) { return [] }
+  const codons = rna.match(/.{1,3}/g)
+  let proteins = []
+  for (let codon of codons) {
+    if (translations[codon] === undefined) { 
+      throw new Error('Invalid codon') 
+    }
+    if (translations[codon] === 'STOP') { break; }
+    proteins.push(translations[codon])
+  }
+  return proteins
 };

@@ -1,6 +1,6 @@
 # Exercism
 
-Coding challenges as found on [exercism.io](https://exercism.io) that I have completed so far.
+Test-driven coding challenges as found on [exercism.io](https://exercism.io) that I have completed so far.
 
 For more info on each challenge, see the README in the relevant sub-folder.
 
@@ -17,5 +17,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Reverse String](./javascript/reverse-string)
 - [Collatz Conjecture](./javascript/collatz-conjecture)
 - [Triangle](./javascript/triangle)
+- [Protein Translation](./javascript/protein-translation)
 
 
