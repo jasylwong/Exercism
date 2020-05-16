@@ -22,5 +22,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 ### In progress
 
+- [Minesweeper](./javascript/minesweeper)
 
 
