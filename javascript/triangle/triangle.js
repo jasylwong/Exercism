@@ -5,7 +5,7 @@
 
 export class Triangle {
   constructor(s1, s2, s3) {
-    this.sides = [s1, s2, s3]
+    this.sides = [s1, s2, s3].sort((a, b) => a - b)
   }
 
   isEquilateral() {
@@ -13,11 +13,20 @@ export class Triangle {
   }
 
   isIsosceles() {
-    const sorted = this.sides.sort((a, b) => a - b)
-    return sorted[1] === sorted[2]
+    if (this.isViolation() || this.isNotPosInt()) { return false }
+    return this.sides[0] === this.sides[1] || this.sides[1] === this.sides[2]
   }
 
   isScalene() {
-    throw new Error("Remove this statement and implement this function");
+    if (this.isViolation() || this.isNotPosInt()) { return false }
+    return this.sides[0] !== this.sides[1] && this.sides[1] !== this.sides[2]
+  }
+
+  isViolation() {
+    return this.sides[0] + this.sides[1] <= this.sides[2]
+  }
+
+  isNotPosInt() {
+    return this.sides[0] <= 0
   }
 }
