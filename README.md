@@ -19,4 +19,8 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Triangle](./javascript/triangle)
 - [Protein Translation](./javascript/protein-translation)
 
+### In progress
+
+- [All Your Base](./javascript/all-your-base)
+
 
