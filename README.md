@@ -9,13 +9,13 @@ For more info on each challenge, see the README in the relevant sub-folder.
 ### Core exercises completed:
 
 - [Hello World](./javascript/hello-world)
-- Two Fer
-- Resistor Color
+- [Two Fer](./javascript/two-fer)
+- [Resistor Color](./javascript/resistor-color)
 
 ### Extra exercises completed:
-- Leap
-- Reverse String
-- Collatz Conjecture
-- Triangle
+- [Leap](./javascript/leap)
+- [Reverse String](./javascript/reverse-string)
+- [Collatz Conjecture](./javascript/collatz-conjecture)
+- [Triangle](./javascript/triangle)
 
 
