@@ -3,6 +3,7 @@
 // convenience to get you started writing code faster.
 //
 
-export const annotate = (input) =>  {
-  throw new Error('Remove this statement and implement this function');
+export const annotate = () =>  {
+  // throw new Error('Remove this statement and implement this function');
+  return []
 }
