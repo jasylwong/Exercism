@@ -5,7 +5,7 @@
 
 export class Triangle {
   constructor(s1, s2, s3) {
-    this.sides = [s1, s2, s3].sort((a, b) => a - b)
+    this.sides = [s1, s2, s3].sort()
   }
 
   isEquilateral() {
