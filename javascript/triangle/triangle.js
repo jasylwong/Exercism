@@ -9,7 +9,7 @@ export class Triangle {
   }
 
   isEquilateral() {
-    return this.sides.every(side => side === this.sides[0] && side !== 0)
+    return this.sides[0] === this.sides[2] && !this.isNotPosInt()
   }
 
   isIsosceles() {
