@@ -4,8 +4,8 @@
 //
 
 export class Triangle {
-  constructor(s1, s2, s3) {
-    this.sides = [s1, s2, s3].sort()
+  constructor(...args) {
+    this.sides = args.sort()
   }
 
   isEquilateral() {
