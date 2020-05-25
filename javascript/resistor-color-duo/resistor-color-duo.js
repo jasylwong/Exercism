@@ -3,7 +3,8 @@
 // convenience to get you started writing code faster.
 //
 
-export const decodedValue = (arr) => {
-  const colors = "black brown red orange yellow green blue violet grey white".split(" ")
-  return Number(`${colors.indexOf(arr[0])}${colors.indexOf(arr[1])}`)
+const COLORS = ["black","brown","red","orange","yellow","green","blue","violet","grey","white"];
+
+export const decodedValue = ([color1, color2]) => {
+  return COLORS.indexOf(color1) * 10 + COLORS.indexOf(color2);
 };
