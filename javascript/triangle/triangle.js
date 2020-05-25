@@ -9,16 +9,16 @@ export class Triangle {
   }
 
   isEquilateral() {
-    return this.sides[0] === this.sides[2] && !this.isNotPosInt()
+    return this.sides[0] === this.sides[2] && this.isPosInt()
   }
 
   isIsosceles() {
-    if (this.isViolation() || this.isNotPosInt()) { return false }
+    if (this.isViolation() || !this.isPosInt()) { return false }
     return this.sides[0] === this.sides[1] || this.sides[1] === this.sides[2]
   }
 
   isScalene() {
-    if (this.isViolation() || this.isNotPosInt()) { return false }
+    if (this.isViolation() || !this.isPosInt()) { return false }
     return this.sides[0] !== this.sides[1] && this.sides[1] !== this.sides[2]
   }
 
@@ -26,7 +26,7 @@ export class Triangle {
     return this.sides[0] + this.sides[1] <= this.sides[2]
   }
 
-  isNotPosInt() {
-    return this.sides[0] <= 0
+  isPosInt() {
+    return this.sides[0] > 0
   }
 }
