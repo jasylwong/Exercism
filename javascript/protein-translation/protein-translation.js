@@ -21,8 +21,8 @@ const translations = {
 export const translate = (rna) => {
   if (!rna) { return [] }
   const codons = rna.match(/.{1,3}/g)
-  let proteins = []
-  for (let codon of codons) {
+  const proteins = []
+  for (const codon of codons) {
     if (translations[codon] === undefined) { 
       throw new Error('Invalid codon') 
     }
