@@ -5,6 +5,7 @@ Test-driven coding challenges as found on [exercism.io](https://exercism.io) tha
 For more info on each challenge, see the README in the relevant sub-folder.
 
 ## JavaScript Track
+---
 
 ### Core exercises completed:
 
@@ -22,6 +23,17 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 ### In progress
 
+- [Gigasecond](./javascript/gigasecond)
 - [Minesweeper](./javascript/minesweeper)
 
+## Ruby Track
+---
+### Core exercises completed:
+
+- [Hello World](./ruby/hello-world)
+- [Two Fer](./ruby/two-fer)
+
+### Extra exercises completed:
+
+### In progress
 
