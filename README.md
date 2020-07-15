@@ -31,9 +31,9 @@ For more info on each challenge, see the README in the relevant sub-folder.
 ### Core exercises completed:
 
 - [Hello World](./ruby/hello-world)
-- [Two Fer](./ruby/two-fer)
 
 ### Extra exercises completed:
 
 ### In progress
+- [Two Fer](./ruby/two-fer)
 
