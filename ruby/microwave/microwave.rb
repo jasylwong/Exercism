@@ -1,15 +1,9 @@
 class Microwave
   def initialize(input)
-    @input = input
+    @minutes, @seconds = input.divmod(input < 100 ? 60 : 100)
   end
 
   def timer
-    if @input < 10
-      "00:0#{@input}"
-    elsif @input < 60
-      "00:#{@input}"
-    elsif @input == 60
-      "01:00"
-    end
+    "%02d:%02d" % [@minutes, @seconds]
   end
 end
