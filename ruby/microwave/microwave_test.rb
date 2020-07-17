@@ -4,22 +4,18 @@ require_relative 'microwave'
 # Common test data version: 1.7.0 cacf1f1
 class MicrowaveTest < Minitest::Test
   def test_one_second
-    # skip
     assert_equal '00:01', Microwave.new(1).timer
   end
 
   def test_fifty_nine_seconds
-    skip
     assert_equal '00:59', Microwave.new(59).timer
   end
 
   def test_sixty_seconds
-    skip
     assert_equal '01:00', Microwave.new(60).timer
   end
 
   def test_one_minute
-    skip
     assert_equal '01:00', Microwave.new(100).timer
   end
 
@@ -49,7 +45,7 @@ class MicrowaveTest < Minitest::Test
   end
 
   def test_over_ten_minutes
-    # skip
+    skip
     assert_equal '10:01', Microwave.new(1001).timer
   end
 end

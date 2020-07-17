@@ -12,6 +12,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Hello World](./javascript/hello-world)
 - [Two Fer](./javascript/two-fer)
 - [Resistor Color](./javascript/resistor-color)
+- [Gigasecond](./javascript/gigasecond)
 
 ### Extra exercises completed:
 - [Leap](./javascript/leap)
@@ -23,7 +24,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 ### In progress
 
-- [Gigasecond](./javascript/gigasecond)
 - [Minesweeper](./javascript/minesweeper)
 
 ## Ruby Track
@@ -36,4 +36,8 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 ### In progress
 - [Two Fer](./ruby/two-fer)
+- [Gigasecond](./ruby/gigasecond)
+- [Resistor Color](./ruby/resistor-color)
+- [Darts](./ruby/darts)
+- [Microwave](./ruby/microwave)
 
