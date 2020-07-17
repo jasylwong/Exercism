@@ -1,6 +1,6 @@
 module TwoFer
-  def two_fer(name = nil)
-    "One for #{name ? name : "you"}, one for me."
+  def two_fer(name = "you")
+    "One for #{name}, one for me."
   end
 
   module_function :two_fer
