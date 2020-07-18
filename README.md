@@ -5,8 +5,6 @@ Test-driven coding challenges as found on [exercism.io](https://exercism.io) tha
 For more info on each challenge, see the README in the relevant sub-folder.
 
 ## JavaScript Track
----
-
 ### Core exercises completed:
 
 - [Hello World](./javascript/hello-world)
@@ -27,7 +25,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Minesweeper](./javascript/minesweeper)
 
 ## Ruby Track
----
 ### Core exercises completed:
 
 - [Hello World](./ruby/hello-world)
@@ -41,3 +38,17 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Darts](./ruby/darts)
 - [Microwave](./ruby/microwave)
 
+# Python Track
+### Core exercises completed:
+
+- [Hello World](./python/hello-world)
+- [Two Fer](./python/two-fer)
+
+### Extra exercises completed:
+- [High Scores](./python/high-scores)
+- [Pangram](./python/pangram)
+
+### In progress
+- [Raindrops](./python/raindrops)
+- [Armstrong Numbers](./python/armstrong-numbers)
+- [Robot Name](./python/robot-name)
