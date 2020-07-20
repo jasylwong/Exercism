@@ -21,11 +21,17 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Collatz Conjecture](./javascript/collatz-conjecture)
 - [Triangle](./javascript/triangle)
 
-### In progress
+### In progress / Awaiting review
 
 - [All Your Base](./javascript/all-your-base)
 - [Minesweeper](./javascript/minesweeper)
 - [Space Age](./javascript/space-age)
+- [Queen Attack](./javascript/queen-attack)
+
+
+
+
+
 
 ## Ruby Track
 ### Core exercises completed:
@@ -35,12 +41,21 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Resistor Color Duo](./ruby/resistor-color-duo)
 
 ### Extra exercises completed:
+- [Pangram](./ruby/pangram)
 
-### In progress
+### In progress / Awaiting review
+- [Acronym](./ruby/acronym)
 - [Gigasecond](./ruby/gigasecond)
 - [Resistor Color](./ruby/resistor-color)
 - [Darts](./ruby/darts)
 - [Microwave](./ruby/microwave)
+- [RNA Transcription](./ruby/rna-transcription)
+- [Leap](./ruby/leap)
+
+
+
+
+
 
 # Python Track
 ### Core exercises completed:
@@ -52,7 +67,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [High Scores](./python/high-scores)
 - [Pangram](./python/pangram)
 
-### In progress
+### In progress / Awaiting review
 - [Raindrops](./python/raindrops)
 - [Armstrong Numbers](./python/armstrong-numbers)
 - [Robot Name](./python/robot-name)
