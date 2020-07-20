@@ -1,16 +1,7 @@
 export const annotate = (input) =>  {
   let output = input.map(r => r.split(''))
-  // for (let r in input) {
   for (let [r, rVal] of input.entries()) {
-    r = parseInt(r)
-    // console.log('r:', r)
-  //   console.log('output', output)
-  //   const row = rVal.split('')
-    // for (let c in input[r].split('')) {
-      // c = parseInt(c)
     for (let [c, cVal] of rVal.split('').entries()) {
-      // console.log('r:', r, 'c:', c, typeof r, typeof c)
-      // console.log('output r c', output[r][c], typeof output[r][c])
       if (input[r][c] === "*") {
         output[r][c] = '*'
       } else {
