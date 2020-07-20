@@ -20,11 +20,12 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Reverse String](./javascript/reverse-string)
 - [Collatz Conjecture](./javascript/collatz-conjecture)
 - [Triangle](./javascript/triangle)
-- [All Your Base](./javascript/all-your-base)
 
 ### In progress
 
+- [All Your Base](./javascript/all-your-base)
 - [Minesweeper](./javascript/minesweeper)
+- [Space Age](./javascript/space-age)
 
 ## Ruby Track
 ### Core exercises completed:
