@@ -1,5 +1,7 @@
 module Acronym
   def self.abbreviate(phrase)
-    "PNG"
+    phrase.split(/\s|-/).map do |word|
+      word[0].upcase
+    end.join('')
   end
 end
