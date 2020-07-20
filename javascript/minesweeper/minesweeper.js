@@ -1,41 +1,49 @@
-//
-// This is only a SKELETON file for the 'Minesweeper' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
-
-const arraysEqual = (a, b) => {
-  if (a === b) { return true }
-  if (a.length !== b.length) { return false}
-}
-
 export const annotate = (input) =>  {
-  // throw new Error('Remove this statement and implement this function');
-  const oneMine = [
-    '   ',
-    ' * ',
-    '   ',
-  ];
-  const output = [
-    '111',
-    '1*1',
-    '111',
-  ];
-  if (input === oneMine) {
-    return output
-  } else {
-    return input
+  let output = input.map(r => r.split(''))
+  // for (let r in input) {
+  for (let [r, rVal] of input.entries()) {
+    r = parseInt(r)
+    // console.log('r:', r)
+  //   console.log('output', output)
+  //   const row = rVal.split('')
+    // for (let c in input[r].split('')) {
+      // c = parseInt(c)
+    for (let [c, cVal] of rVal.split('').entries()) {
+      // console.log('r:', r, 'c:', c, typeof r, typeof c)
+      // console.log('output r c', output[r][c], typeof output[r][c])
+      if (input[r][c] === "*") {
+        output[r][c] = '*'
+      } else {
+        if (r > 0 && c > 0 && input[r-1][c-1] === "*") {
+          output[r][c] = (output[r][c] === ' ' ? 1 : output[r][c] + 1)
+        }
+        if (r > 0 && input[r-1][c] === "*") {
+          output[r][c] = (output[r][c] === ' ' ? 1 : output[r][c] + 1)
+        }
+        if (r > 0 && c < input[0].length - 1 && input[r-1][c+1] === "*") {
+          output[r][c] = (output[r][c] === ' ' ? 1 : output[r][c] + 1)
+        }
+        if (c > 0 && input[r][c-1] === "*") {
+          output[r][c] = (output[r][c] === ' ' ? 1 : output[r][c] + 1)
+        }
+        if (c < input[0].length - 1 && input[r][c+1] === "*") {
+          output[r][c] = (output[r][c] === ' ' ? 1 : output[r][c] + 1)
+        }
+        if (r < input.length - 1 && c > 0 && input[r+1][c-1] === "*") {
+          output[r][c] = (output[r][c] === ' ' ? 1 : output[r][c] + 1)
+        }
+        if (r < input.length - 1 && input[r+1][c] === "*") {
+          output[r][c] = (output[r][c] === ' ' ? 1 : output[r][c] + 1)
+        }
+        if (r < input.length - 1 && c < input[0].length - 1 && input[r+1][c+1] === "*") {
+          output[r][c] = (output[r][c] === ' ' ? 1 : output[r][c] + 1)
+        }
+      }
+    }
   }
+  
+  return output.map(r => r.join(''))
 }
 
 
-// const arraysEqual = (a, b) => {
-//   if (a === b) return true
-//   if (a == null || b == null) return false
-//   if (a.length !== b.length) return false
 
-//   for (let i = 0; i < a.length; i++) {
-//     console.log(i, a[i], b[i])
-//     if (a[i] !== b[i]) return false
-//   }
-//   return true
-// }
