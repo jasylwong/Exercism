@@ -29,6 +29,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 - [Hello World](./ruby/hello-world)
 - [Two Fer](./ruby/two-fer)
+- [Resistor Color Duo](./ruby/resistor-color-duo)
 
 ### Extra exercises completed:
 
