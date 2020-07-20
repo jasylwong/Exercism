@@ -1,6 +1,6 @@
 module Pangram
   ALL_LETTERS = 'abcdefghijklmnopqrstuvwxyz'
   def self.pangram?(sentence)
-    sentence.gsub(/[^a-z]/i, '').downcase.split('').uniq.sort.join == ALL_LETTERS
+    ([*'a'..'z'] - sentence.downcase.chars).empty?
   end
 end
