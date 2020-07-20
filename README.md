@@ -10,14 +10,16 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Hello World](./javascript/hello-world)
 - [Two Fer](./javascript/two-fer)
 - [Resistor Color](./javascript/resistor-color)
+- [Resistor Color Duo](./javascript/resistor-color-duo)
 - [Gigasecond](./javascript/gigasecond)
+- [RNA Transcription](./javascript/rna-transcription)
 
 ### Extra exercises completed:
+- [Protein Translation](./javascript/protein-translation)
 - [Leap](./javascript/leap)
 - [Reverse String](./javascript/reverse-string)
 - [Collatz Conjecture](./javascript/collatz-conjecture)
 - [Triangle](./javascript/triangle)
-- [Protein Translation](./javascript/protein-translation)
 - [All Your Base](./javascript/all-your-base)
 
 ### In progress

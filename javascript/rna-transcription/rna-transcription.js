@@ -3,9 +3,8 @@ export const toRna = (dna) => {
     'G': 'C',
     'C': 'G',
     'T': 'A',
-    'A': 'U',
-    '': ''
+    'A': 'U'
   } 
 
-  return dna.split('').map(n => complements[n]).join('')
+  return [...dna].map(n => complements[n]).join('')
 };
