@@ -7,4 +7,7 @@ class HighScores
     @personal_best = scores.max
     @personal_top_three = scores.sort.last(3).reverse
   end
+
+  def latest_is_personal_best?
+  end
 end
