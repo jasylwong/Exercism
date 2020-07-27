@@ -43,4 +43,8 @@ class SpaceAge
   def on_uranus
     return @years / EARTH_YEARS[:uranus]
   end
+
+  def on_neptune
+    return @years / EARTH_YEARS[:neptune]
+  end
 end
