@@ -29,25 +29,21 @@ class SpaceAgeTest < Minitest::Test
   end
 
   def test_age_on_jupiter
-    skip
     age = SpaceAge.new(901_876_382)
     assert_in_delta 2.41, age.on_jupiter, DELTA
   end
 
   def test_age_on_saturn
-    skip
     age = SpaceAge.new(3_000_000_000)
     assert_in_delta 3.23, age.on_saturn, DELTA
   end
 
   def test_age_on_uranus
-    skip
     age = SpaceAge.new(3_210_123_456)
     assert_in_delta 1.21, age.on_uranus, DELTA
   end
 
   def test_age_on_neptune
-    skip
     age = SpaceAge.new(8_210_123_456)
     assert_in_delta 1.58, age.on_neptune, DELTA
   end
