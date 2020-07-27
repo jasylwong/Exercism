@@ -27,4 +27,8 @@ class SpaceAge
   def on_venus
     return @years / EARTH_YEARS[:venus]
   end
+
+  def on_mars
+    return @years / EARTH_YEARS[:mars]
+  end
 end
