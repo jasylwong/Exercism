@@ -13,5 +13,5 @@ const seconds_in_a_year = 60 * 60 * 24 * 365.25
 
 export const age = (planet, seconds) => {
   const age_in_earth_years = seconds / (seconds_in_a_year * earth_years[planet])
-  return parseFloat(age_in_earth_years.toFixed(2))
+  return Number(age_in_earth_years.toFixed(2))
 };
