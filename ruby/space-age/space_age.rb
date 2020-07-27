@@ -19,4 +19,8 @@ class SpaceAge
   def on_earth
     return @years / EARTH_YEARS[:earth]
   end
+
+  def on_mercury
+    return @years / EARTH_YEARS[:mercury]
+  end
 end
