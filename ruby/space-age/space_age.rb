@@ -35,4 +35,8 @@ class SpaceAge
   def on_jupiter
     return @years / EARTH_YEARS[:jupiter]
   end
+
+  def on_saturn
+    return @years / EARTH_YEARS[:saturn]
+  end
 end
