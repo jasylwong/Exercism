@@ -17,7 +17,7 @@ describe('Pangram()', () => {
     expect(isPangram('a quick movement of the enemy will jeopardize five gunboats')).toBe(false);
   });
 
-  xtest("missing the letter 'h'", () => {
+  test("missing the letter 'h'", () => {
     expect(isPangram('five boxing wizards jump quickly at it')).toBe(false);
   });
 
