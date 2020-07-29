@@ -21,7 +21,7 @@ describe('Pangram()', () => {
     expect(isPangram('five boxing wizards jump quickly at it')).toBe(false);
   });
 
-  xtest('with underscores', () => {
+  test('with underscores', () => {
     expect(isPangram('the_quick_brown_fox_jumps_over_the_lazy_dog')).toBe(true);
   });
 
