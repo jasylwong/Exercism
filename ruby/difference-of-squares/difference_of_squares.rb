@@ -10,4 +10,8 @@ class Squares
   def sum_of_squares
     (1..@n).map{ |i| i ** 2}.reduce(:+)
   end
+
+  def difference
+    square_of_sum - sum_of_squares
+  end
 end
