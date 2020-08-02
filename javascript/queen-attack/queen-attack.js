@@ -24,6 +24,14 @@ export class QueenAttack {
   }
 
   canAttack() {
-    return this.white[0] === this.black[0] || this.white[1] === this.black[1]
+    if (this.white[0] === this.black[0]) {
+      return true
+    } else if (this.white[1] === this.black[1]) {
+      return true
+    } else if (Math.abs(this.white[0] - this.black[0]) === Math.abs(this.white[1] - this.black[1])) {
+      return true
+    } else {
+      return false
+    }
   }
 }

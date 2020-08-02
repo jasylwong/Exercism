@@ -62,27 +62,27 @@ describe('Queens', () => {
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xtest('queens can attack diagonally', () => {
+  test('queens can attack diagonally', () => {
     const queens = new QueenAttack({ white: [1, 1], black: [6, 6] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xtest('queens can attack another diagonally', () => {
+  test('queens can attack another diagonally', () => {
     const queens = new QueenAttack({ white: [0, 6], black: [1, 7] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xtest('queens can attack yet another diagonally', () => {
+  test('queens can attack yet another diagonally', () => {
     const queens = new QueenAttack({ white: [4, 1], black: [6, 3] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xtest('queens can attack on a north-east/south-west diagonal', () => {
+  test('queens can attack on a north-east/south-west diagonal', () => {
     const queens = new QueenAttack({ white: [7, 0], black: [0, 7] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xtest('queens can attack on another ne/sw diagonal', () => {
+  test('queens can attack on another ne/sw diagonal', () => {
     const queens = new QueenAttack({ white: [2, 6], black: [5, 3] });
     expect(queens.canAttack()).toEqual(true);
   });
