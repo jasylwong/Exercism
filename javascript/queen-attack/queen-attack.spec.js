@@ -7,7 +7,7 @@ describe('Queens', () => {
     expect(queens.black).toEqual([7, 3]);
   });
 
-  xtest('initialized with specific placement', () => {
+  test('initialized with specific placement', () => {
     const queens = new QueenAttack({ white: [3, 7], black: [6, 1] });
     expect(queens.white).toEqual([3, 7]);
     expect(queens.black).toEqual([6, 1]);
