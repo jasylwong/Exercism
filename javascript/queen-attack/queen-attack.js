@@ -24,14 +24,18 @@ export class QueenAttack {
   }
 
   canAttack() {
-    if (this.white[0] === this.black[0]) {
-      return true
-    } else if (this.white[1] === this.black[1]) {
-      return true
-    } else if (Math.abs(this.white[0] - this.black[0]) === Math.abs(this.white[1] - this.black[1])) {
-      return true
-    } else {
-      return false
-    }
+    return this.sameRow() || this.sameColumn() || this.sameDiagonal()
+  }
+
+  sameRow() {
+    return this.white[0] === this.black[0]
+  }
+
+  sameColumn() {
+    return this.white[1] === this.black[1]
+  }
+
+  sameDiagonal() {
+    return Math.abs(this.white[0] - this.black[0]) === Math.abs(this.white[1] - this.black[1])
   }
 }
