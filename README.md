@@ -41,6 +41,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Resistor Color Duo](./ruby/resistor-color-duo)
 - [Acronym](./ruby/acronym)
 - [High Scores](./ruby/high-scores)
+- [Matrix](./ruby/matrix)
 
 ### Extra exercises completed:
 - [Pangram](./ruby/pangram)
@@ -53,6 +54,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [RNA Transcription](./ruby/rna-transcription)
 - [Leap](./ruby/leap)
 - [Space Age](./ruby/space-age)
+- [Difference Of Squares](./ruby/difference-of-squares)
 
 
 
