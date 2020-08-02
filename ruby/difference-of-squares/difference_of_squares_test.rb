@@ -36,7 +36,6 @@ class DifferenceOfSquaresTest < Minitest::Test
   end
 
   def test_difference_of_squares_100
-    skip
     assert_equal 25_164_150, Squares.new(100).difference
   end
 end
