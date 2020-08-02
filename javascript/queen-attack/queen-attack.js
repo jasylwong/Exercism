@@ -8,7 +8,18 @@ export class QueenAttack {
   }
 
   toString() {
-    throw new Error("Remove this statement and implement this function");
+    let board = ['_ _ _ _ _ _ _ _',
+      '_ _ _ _ _ _ _ _',
+      '_ _ _ _ _ _ _ _',
+      '_ _ _ _ _ _ _ _',
+      '_ _ _ _ _ _ _ _',
+      '_ _ _ _ _ _ _ _',
+      '_ _ _ _ _ _ _ _',
+      '_ _ _ _ _ _ _ _\n']
+
+    board[this.white[0]] = '_ _ _ _ _ _ _ _'.substring(0, this.white[1] * 2) + 'W' + '_ _ _ _ _ _ _ _'.substring(this.white[1] * 2 + 1)
+    board[this.black[0]] = '_ _ _ _ _ _ _ _'.substring(0, this.black[1] * 2) + 'B' + '_ _ _ _ _ _ _ _'.substring(this.black[1] * 2 + 1)
+    return board.join('\n');
   }
 
   canAttack() {

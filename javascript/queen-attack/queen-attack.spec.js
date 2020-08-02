@@ -19,7 +19,7 @@ describe('Queens', () => {
     expect(() => new QueenAttack(positioning)).toThrow(expectedError);
   });
 
-  xtest('toString representation', () => {
+  test('toString representation', () => {
     const positioning = { white: [2, 4], black: [6, 6] };
     const queens = new QueenAttack(positioning);
     const board = ['_ _ _ _ _ _ _ _',
