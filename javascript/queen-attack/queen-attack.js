@@ -15,10 +15,11 @@ export class QueenAttack {
       '_ _ _ _ _ _ _ _',
       '_ _ _ _ _ _ _ _',
       '_ _ _ _ _ _ _ _',
-      '_ _ _ _ _ _ _ _\n']
+      '_ _ _ _ _ _ _ _']
 
     board[this.white[0]] = '_ _ _ _ _ _ _ _'.substring(0, this.white[1] * 2) + 'W' + '_ _ _ _ _ _ _ _'.substring(this.white[1] * 2 + 1)
     board[this.black[0]] = '_ _ _ _ _ _ _ _'.substring(0, this.black[1] * 2) + 'B' + '_ _ _ _ _ _ _ _'.substring(this.black[1] * 2 + 1)
+    board[7] = board[7].concat('\n')
     return board.join('\n');
   }
 
