@@ -47,7 +47,7 @@ describe('Queens', () => {
     expect(queens.toString()).toEqual(board);
   });
 
-  xtest('queens cannot attack', () => {
+  test('queens cannot attack', () => {
     const queens = new QueenAttack({ white: [2, 3], black: [4, 7] });
     expect(queens.canAttack()).toEqual(false);
   });
