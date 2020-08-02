@@ -3,9 +3,9 @@ class HighScores
 
   def initialize(scores)
     @scores = scores
-    @latest = scores[-1]
+    @latest = scores.last
     @personal_best = scores.max
-    @personal_top_three = scores.sort.last(3).reverse
+    @personal_top_three = scores.max(3)
   end
 
   def latest_is_personal_best?
