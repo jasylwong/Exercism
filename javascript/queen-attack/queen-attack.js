@@ -36,6 +36,8 @@ export class QueenAttack {
   }
 
   sameDiagonal() {
-    return Math.abs(this.white[0] - this.black[0]) === Math.abs(this.white[1] - this.black[1])
+    const xDist = Math.abs(this.white[0] - this.black[0])
+    const yDist = Math.abs(this.white[1] - this.black[1])
+    return xDist === yDist
   }
 }
