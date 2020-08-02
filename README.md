@@ -39,18 +39,20 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Hello World](./ruby/hello-world)
 - [Two Fer](./ruby/two-fer)
 - [Resistor Color Duo](./ruby/resistor-color-duo)
+- [Acronym](./ruby/acronym)
+- [High Scores](./ruby/high-scores)
 
 ### Extra exercises completed:
 - [Pangram](./ruby/pangram)
 
 ### In progress / Awaiting review
-- [Acronym](./ruby/acronym)
 - [Gigasecond](./ruby/gigasecond)
 - [Resistor Color](./ruby/resistor-color)
 - [Darts](./ruby/darts)
 - [Microwave](./ruby/microwave)
 - [RNA Transcription](./ruby/rna-transcription)
 - [Leap](./ruby/leap)
+- [Space Age](./ruby/space-age)
 
 
 
