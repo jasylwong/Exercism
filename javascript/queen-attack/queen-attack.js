@@ -24,6 +24,6 @@ export class QueenAttack {
   }
 
   canAttack() {
-    return this.white[0] === this.black[0]
+    return this.white[0] === this.black[0] || this.white[1] === this.black[1]
   }
 }
