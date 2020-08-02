@@ -24,6 +24,6 @@ export class QueenAttack {
   }
 
   canAttack() {
-    throw new Error("Remove this statement and implement this function");
+    return this.white[0] === this.black[0]
   }
 }
