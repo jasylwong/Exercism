@@ -4,7 +4,7 @@ class Matrix
   end
 
   def rows
-    @entries.split("\n")
+    @entries.each_line
       .map do |r| 
         r.split.map{ |e| e.to_i }
       end
@@ -20,3 +20,16 @@ class Matrix
     output
   end
 end
+
+# Every time you see this pattern:
+
+# Initialize an object (like output)
+# Iterate and modify this object
+# Return this object
+# ... you probably have an Enumerable method to do the job.
+
+# And for, although a valid syntax, is not idiomatic in Ruby.
+
+# Can you try a way to rewrite columns using iterators? (Just if you want. Because I think this would be beyond the scope of this exercise).
+
+# And... You could just use Array#transpose at rows to get columns.
