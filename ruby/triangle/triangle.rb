@@ -28,7 +28,7 @@ class Triangle
     @sides.max <= @sides.min(2).reduce(:+)
   end
 
-  def all_sides_greater_than_zero?
-    @sides.all?{ |n| n > 0 }
+  def all_sides_positive?
+    @sides.all?(&:positive?)
   end
 end
