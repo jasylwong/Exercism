@@ -6,7 +6,7 @@ class Matrix
   def rows
     @entries.split("\n")
       .map do |r| 
-        r.split(" ").map{ |e| e.to_i }
+        r.split.map{ |e| e.to_i }
       end
   end
 
