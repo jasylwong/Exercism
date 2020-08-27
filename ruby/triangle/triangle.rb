@@ -21,10 +21,10 @@ class Triangle
   private
 
   def valid_sides?
-     at_least_degenerate? && all_sides_greater_than_zero?
+     triangle_inequality_holds? && all_sides_greater_than_zero?
   end
 
-  def at_least_degenerate?
+  def triangle_inequality_holds?
     @sides.max <= @sides.min(2).reduce(:+)
   end
 
