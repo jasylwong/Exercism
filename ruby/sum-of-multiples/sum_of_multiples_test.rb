@@ -39,7 +39,6 @@ class SumOfMultiplesTest < Minitest::Test
   end
 
   def test_factors_not_relatively_prime
-    skip
     sum_of_multiples = SumOfMultiples.new(4, 6)
     assert_equal 30, sum_of_multiples.to(15)
   end
