@@ -29,7 +29,6 @@ class SumOfMultiplesTest < Minitest::Test
   end
 
   def test_a_much_larger_limit
-    skip
     sum_of_multiples = SumOfMultiples.new(3, 5)
     assert_equal 233_168, sum_of_multiples.to(1_000)
   end
