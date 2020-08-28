@@ -59,7 +59,6 @@ class SumOfMultiplesTest < Minitest::Test
   end
 
   def test_all_numbers_are_multiples_of_1
-    skip
     sum_of_multiples = SumOfMultiples.new(1)
     assert_equal 4_950, sum_of_multiples.to(100)
   end
