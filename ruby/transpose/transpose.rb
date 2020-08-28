@@ -1,8 +1,11 @@
-=begin
-Write your code for the 'Transpose' exercise in this file. Make the tests in
-`transpose_test.rb` pass.
+module Testing
+  def transpose(input)
+    input.split("\n").map{ |x| [x] }
+      .map{ |x| x.first.split("") }
+        .transpose.map{ |y| y.join }.join("\n")
+  end
+end
 
-To get started with TDD, see the `README.md` file in your
-`ruby/transpose` directory.
-=end
-
+class Transpose
+  extend Testing
+end
