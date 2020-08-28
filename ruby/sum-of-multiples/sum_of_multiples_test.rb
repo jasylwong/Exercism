@@ -49,13 +49,11 @@ class SumOfMultiplesTest < Minitest::Test
   end
 
   def test_one_factor_is_a_multiple_of_another
-    skip
     sum_of_multiples = SumOfMultiples.new(5, 25)
     assert_equal 275, sum_of_multiples.to(51)
   end
 
   def test_much_larger_factors
-    skip
     sum_of_multiples = SumOfMultiples.new(43, 47)
     assert_equal 2_203_160, sum_of_multiples.to(10_000)
   end
