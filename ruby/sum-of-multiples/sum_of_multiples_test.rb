@@ -34,7 +34,6 @@ class SumOfMultiplesTest < Minitest::Test
   end
 
   def test_three_factors
-    skip
     sum_of_multiples = SumOfMultiples.new(7, 13, 17)
     assert_equal 51, sum_of_multiples.to(20)
   end
