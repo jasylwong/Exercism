@@ -56,6 +56,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Space Age](./ruby/space-age)
 - [Difference Of Squares](./ruby/difference-of-squares)
 - [Triangle](./ruby/triangle)
+- [Series](./ruby/series)
 
 
 
