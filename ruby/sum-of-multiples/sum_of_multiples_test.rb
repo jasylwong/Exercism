@@ -69,7 +69,6 @@ class SumOfMultiplesTest < Minitest::Test
   end
 
   def test_the_only_multiple_of_0_is_0
-    skip
     sum_of_multiples = SumOfMultiples.new(0)
     assert_equal 0, sum_of_multiples.to(1)
   end
