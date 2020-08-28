@@ -1,8 +1,11 @@
-=begin
-Write your code for the 'Sum Of Multiples' exercise in this file. Make the tests in
-`sum_of_multiples_test.rb` pass.
+class SumOfMultiples
+  def initialize(*factors)
+    @factors = factors
+  end
 
-To get started with TDD, see the `README.md` file in your
-`ruby/sum-of-multiples` directory.
-=end
-
+  def to(num)
+    (1...num).select do |n|
+      @factors.any? { |f| n % f == 0 }
+    end.reduce(:+) || 0
+  end
+end
