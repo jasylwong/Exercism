@@ -24,7 +24,6 @@ class SumOfMultiplesTest < Minitest::Test
   end
 
   def test_each_multiple_is_only_counted_once
-    skip
     sum_of_multiples = SumOfMultiples.new(3, 5)
     assert_equal 2_318, sum_of_multiples.to(100)
   end
