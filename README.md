@@ -57,6 +57,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Difference Of Squares](./ruby/difference-of-squares)
 - [Triangle](./ruby/triangle)
 - [Series](./ruby/series)
+- [Anagram](./ruby/anagram)
 
 
 
