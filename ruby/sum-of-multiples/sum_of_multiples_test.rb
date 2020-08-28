@@ -44,7 +44,6 @@ class SumOfMultiplesTest < Minitest::Test
   end
 
   def test_some_pairs_of_factors_relatively_prime_and_some_not
-    skip
     sum_of_multiples = SumOfMultiples.new(5, 6, 8)
     assert_equal 4_419, sum_of_multiples.to(150)
   end
