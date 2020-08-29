@@ -7,7 +7,7 @@ class Matrix
     @rows ||= begin
       @entries.each_line
         .map do |r| 
-          r.split.map{ |e| e.to_i }
+          r.split.map(&:to_i)
         end
       end
   end
