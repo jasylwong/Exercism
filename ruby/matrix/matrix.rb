@@ -8,6 +8,6 @@ class Matrix
   end
 
   def columns
-    rows.transpose
+    @columns ||= rows.transpose
   end
 end
