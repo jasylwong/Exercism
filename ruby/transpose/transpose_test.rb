@@ -36,7 +36,6 @@ class TransposeTest < Minitest::Test
   end
 
   def test_single_line
-    skip
     input = "Single line."
 
     expected = "S\ni\nn\ng\nl\ne\n \nl\ni\nn\ne\n."
