@@ -44,6 +44,7 @@ class TransposeTest < Minitest::Test
   end
 
   def test_first_line_longer_than_second_line
+    skip
     input = "The fourth line.\nThe fifth line."
 
     expected = "TT\nhh\nee\n  \nff\noi\nuf\nrt\nth\nh \n l\nli\nin\nne\ne.\n."
@@ -70,7 +71,6 @@ class TransposeTest < Minitest::Test
   end
 
   def test_square
-    skip
     input = "HEART\nEMBER\nABUSE\nRESIN\nTREND"
 
     expected = "HEART\nEMBER\nABUSE\nRESIN\nTREND"
