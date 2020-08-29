@@ -28,7 +28,6 @@ class TransposeTest < Minitest::Test
   end
 
   def test_simple
-    skip
     input = "ABC\n123"
 
     expected = "A1\nB2\nC3"
