@@ -79,7 +79,6 @@ class TransposeTest < Minitest::Test
   end
 
   def test_rectangle
-    skip
     input = "FRACTURE\nOUTLINED\nBLOOMING\nSEPTETTE"
 
     expected = "FOBS\nRULE\nATOP\nCLOT\nTIME\nUNIT\nRENT\nEDGE"
