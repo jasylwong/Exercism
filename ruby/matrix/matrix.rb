@@ -4,12 +4,7 @@ class Matrix
   end
 
   def rows
-    @rows ||= begin
-      @entries.each_line
-        .map do |r| 
-          r.split.map(&:to_i)
-        end
-      end
+    @rows ||= @entries.each_line.map{ |r| r.split.map(&:to_i) }
   end
 
   def columns
