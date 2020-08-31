@@ -13,6 +13,8 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Resistor Color Duo](./javascript/resistor-color-duo)
 - [Gigasecond](./javascript/gigasecond)
 - [RNA Transcription](./javascript/rna-transcription)
+- [Space Age](./javascript/space-age)
+- [Pangram](./javascript/pangram)
 
 ### Extra exercises completed:
 - [Protein Translation](./javascript/protein-translation)
@@ -25,7 +27,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 - [All Your Base](./javascript/all-your-base)
 - [Minesweeper](./javascript/minesweeper)
-- [Space Age](./javascript/space-age)
 - [Queen Attack](./javascript/queen-attack)
 
 
