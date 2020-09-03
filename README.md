@@ -46,9 +46,9 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 ### Extra exercises completed:
 - [Pangram](./ruby/pangram)
+- [Gigasecond](./ruby/gigasecond)
 
 ### In progress / Awaiting review
-- [Gigasecond](./ruby/gigasecond)
 - [Resistor Color](./ruby/resistor-color)
 - [Darts](./ruby/darts)
 - [Microwave](./ruby/microwave)
