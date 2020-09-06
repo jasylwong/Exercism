@@ -45,20 +45,22 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Matrix](./ruby/matrix)
 
 ### Extra exercises completed:
-- [Pangram](./ruby/pangram)
 - [Gigasecond](./ruby/gigasecond)
+- [Pangram](./ruby/pangram)
+- [Resistor Color](./ruby/resistor-color)
 
 ### In progress / Awaiting review
-- [Resistor Color](./ruby/resistor-color)
+- [Series](./ruby/series)
 - [Darts](./ruby/darts)
 - [Microwave](./ruby/microwave)
+- [Difference Of Squares](./ruby/difference-of-squares)
 - [RNA Transcription](./ruby/rna-transcription)
 - [Leap](./ruby/leap)
+- [Sum Of Multipes](./ruby/sum-of-multiples)
 - [Space Age](./ruby/space-age)
-- [Difference Of Squares](./ruby/difference-of-squares)
-- [Triangle](./ruby/triangle)
-- [Series](./ruby/series)
 - [Anagram](./ruby/anagram)
+- [Triangle](./ruby/triangle)
+- [Transpose](./ruby/transpose)
 
 
 
