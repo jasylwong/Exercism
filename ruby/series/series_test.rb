@@ -34,7 +34,6 @@ class SeriesTest < Minitest::Test
   end
 
   def test_simple_slices_of_three_again
-    skip
     series = Series.new('31001')
     assert_equal ['310', '100', '001'], series.slices(3)
   end
