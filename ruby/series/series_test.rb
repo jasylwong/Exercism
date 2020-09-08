@@ -54,13 +54,11 @@ class SeriesTest < Minitest::Test
   end
 
   def test_simple_slices_of_five
-    skip
     series = Series.new('01234')
     assert_equal ['01234'], series.slices(5)
   end
 
   def test_simple_slices_of_five_again
-    skip
     series = Series.new('81228')
     assert_equal ['81228'], series.slices(5)
   end
