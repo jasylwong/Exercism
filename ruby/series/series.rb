@@ -4,7 +4,7 @@ class Series
   end
 
   def slices(n)
-    raise ArgumentError if n > digits.length
+    raise ArgumentError unless n <= digits.length
 
     digits.split('').each_cons(n).map(&:join)
   end
