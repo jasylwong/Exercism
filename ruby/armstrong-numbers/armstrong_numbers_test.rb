@@ -24,7 +24,6 @@ class ArmstrongNumbersTest < Minitest::Test
   end
 
   def test_four_digit_number_that_is_an_armstrong_number
-    skip
     assert ArmstrongNumbers.include?(9_474)
   end
 
