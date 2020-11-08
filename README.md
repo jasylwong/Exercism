@@ -63,6 +63,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Transpose](./ruby/transpose)
 - [Grains](./ruby/grains)
 - [Word Count](./ruby/word-count)
+- [Saddle Points](./ruby/saddle-points)
 
 
 
