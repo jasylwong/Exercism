@@ -43,6 +43,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Acronym](./ruby/acronym)
 - [High Scores](./ruby/high-scores)
 - [Matrix](./ruby/matrix)
+- [Series](./ruby/series)
 
 ### Extra exercises completed:
 - [Gigasecond](./ruby/gigasecond)
@@ -50,7 +51,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Resistor Color](./ruby/resistor-color)
 
 ### In progress / Awaiting review
-- [Series](./ruby/series)
 - [Darts](./ruby/darts)
 - [Microwave](./ruby/microwave)
 - [Difference Of Squares](./ruby/difference-of-squares)
@@ -61,6 +61,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Anagram](./ruby/anagram)
 - [Triangle](./ruby/triangle)
 - [Transpose](./ruby/transpose)
+- [Grains](./ruby/grains)
 
 
 
