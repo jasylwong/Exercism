@@ -1,5 +1,5 @@
 module Grains
   def self.square(num)
-    1
+    2 ** (num - 1)
   end
 end
