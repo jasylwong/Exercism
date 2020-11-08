@@ -36,7 +36,6 @@ class ArmstrongNumbersTest < Minitest::Test
   end
 
   def test_seven_digit_number_that_is_not_an_armstrong_number
-    skip
     refute ArmstrongNumbers.include?(9_926_314)
   end
 end
