@@ -20,7 +20,6 @@ class ArmstrongNumbersTest < Minitest::Test
   end
 
   def test_three_digit_number_that_is_not_an_armstrong_number
-    skip
     refute ArmstrongNumbers.include?(100)
   end
 
