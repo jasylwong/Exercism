@@ -4,12 +4,10 @@ require_relative 'armstrong_numbers'
 # Common test data version: 1.1.0 b3c2522
 class ArmstrongNumbersTest < Minitest::Test
   def test_zero_is_an_armstrong_number
-    # skip
     assert ArmstrongNumbers.include?(0)
   end
 
   def test_single_digit_numbers_are_armstrong_numbers
-    skip
     assert ArmstrongNumbers.include?(5)
   end
 
