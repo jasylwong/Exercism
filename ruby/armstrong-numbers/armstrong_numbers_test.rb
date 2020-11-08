@@ -28,7 +28,6 @@ class ArmstrongNumbersTest < Minitest::Test
   end
 
   def test_four_digit_number_that_is_not_an_armstrong_number
-    skip
     refute ArmstrongNumbers.include?(9_475)
   end
 
