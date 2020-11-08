@@ -62,6 +62,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Triangle](./ruby/triangle)
 - [Transpose](./ruby/transpose)
 - [Grains](./ruby/grains)
+- [Word Count](./ruby/word-count)
 
 
 
