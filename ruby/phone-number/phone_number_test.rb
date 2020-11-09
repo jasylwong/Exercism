@@ -16,7 +16,6 @@ class PhoneNumberTest < Minitest::Test
   end
 
   def test_invalid_when_9_digits
-    skip
     assert_nil PhoneNumber.clean("123456789")
   end
 
