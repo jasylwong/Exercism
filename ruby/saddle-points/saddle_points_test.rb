@@ -33,13 +33,11 @@ class MatrixTest < Minitest::Test
   end
 
   def test_no_saddle_point
-    skip
     matrix = Matrix.new("2 1\n1 2")
     assert_equal [], matrix.saddle_points
   end
 
   def test_a_saddle_point
-    skip
     matrix = Matrix.new("1 2\n3 4")
     assert_equal [[0, 1]], matrix.saddle_points
   end
