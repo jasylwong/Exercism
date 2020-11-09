@@ -1,8 +1,7 @@
-=begin
-Write your code for the 'Saddle Points' exercise in this file. Make the tests in
-`saddle_points_test.rb` pass.
+class Matrix
+  attr_reader :rows
 
-To get started with TDD, see the `README.md` file in your
-`ruby/saddle-points` directory.
-=end
-
+  def initialize(matrix)
+    @rows = matrix.split("\n").map { |r| r.split(" ").map(&:to_i) }
+  end
+end
