@@ -8,8 +8,8 @@ class Matrix
 
   def saddle_points
     saddle_points = []
-    for i in (0..@columns.length-1)
-      for j in (0..@rows.length-1)
+    columns.each_with_index do |_col, i|
+      rows.each_with_index do |_row, j|
         if columns[i][j] == columns[i].min && columns[i][j] == rows[j].max
           saddle_points << [j, i]
         end
