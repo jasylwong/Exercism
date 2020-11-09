@@ -64,6 +64,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Grains](./ruby/grains)
 - [Word Count](./ruby/word-count)
 - [Saddle Points](./ruby/saddle-points)
+- [Phone Number](./ruby/phone-number)
 
 
 
