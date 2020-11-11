@@ -20,7 +20,6 @@ class PhoneNumberTest < Minitest::Test
   end
 
   def test_invalid_when_11_digits_does_not_start_with_a_1
-    skip
     assert_nil PhoneNumber.clean("22234567890")
   end
 
