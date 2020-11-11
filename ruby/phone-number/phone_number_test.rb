@@ -39,7 +39,6 @@ class PhoneNumberTest < Minitest::Test
   end
 
   def test_invalid_with_letters
-    skip
     assert_nil PhoneNumber.clean("123-abc-7890")
   end
 
