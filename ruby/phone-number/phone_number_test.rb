@@ -24,7 +24,6 @@ class PhoneNumberTest < Minitest::Test
   end
 
   def test_valid_when_11_digits_and_starting_with_1
-    skip
     assert_equal "2234567890", PhoneNumber.clean("12234567890")
   end
 
