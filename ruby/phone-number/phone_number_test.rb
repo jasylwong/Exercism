@@ -60,7 +60,6 @@ class PhoneNumberTest < Minitest::Test
   end
 
   def test_invalid_if_area_code_starts_with_0_on_valid_11_digit_number
-    skip
     assert_nil PhoneNumber.clean("1 (023) 456-7890")
   end
 
