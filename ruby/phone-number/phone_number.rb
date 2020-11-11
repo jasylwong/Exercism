@@ -7,7 +7,3 @@ module PhoneNumber
     number.length.between?(10, 11) ? number.split('').last(10).join : nil
   end
 end
-
-# Any non numbers
-# Less than 10
-# More than 11
