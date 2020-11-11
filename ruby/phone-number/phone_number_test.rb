@@ -44,7 +44,6 @@ class PhoneNumberTest < Minitest::Test
   end
 
   def test_invalid_if_area_code_starts_with_0
-    skip
     assert_nil PhoneNumber.clean("(023) 456-7890")
   end
 
