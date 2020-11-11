@@ -35,7 +35,6 @@ class PhoneNumberTest < Minitest::Test
   end
 
   def test_invalid_when_more_than_11_digits
-    skip
     assert_nil PhoneNumber.clean("321234567890")
   end
 
