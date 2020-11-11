@@ -72,7 +72,6 @@ class PhoneNumberTest < Minitest::Test
   end
 
   def test_invalid_if_exchange_code_starts_with_1_on_valid_11_digit_number
-    skip
     assert_nil PhoneNumber.clean("1 (223) 156-7890")
   end
 end
