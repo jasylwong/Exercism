@@ -4,6 +4,7 @@ class Phrase
   end
 
   def word_count
+    print @words
     counts = {}
     @words.each do |word|
       counts[word] = counts.keys.include?(word) ? counts[word] + 1 : 1
