@@ -1,19 +1,10 @@
 class Phrase
   def initialize(str)
-    @words = str.split(/[,\s]+/)
+    @str = str
   end
 
   def word_count
-    print @words
-    counts = {}
-    @words.each do |word|
-      counts[word] = counts.keys.include?(word) ? counts[word] + 1 : 1
-      # if counts.keys.include?(word)
-      #   counts[word] += 1
-      # else
-      #   counts[word] = 1
-      # end
-    end
-    counts
+    str.downcase.scan(/[a-z')]+/).group_by{ |word| word }
+      .transform_values(&:count)
   end
 end
