@@ -6,11 +6,12 @@ class Phrase
   def word_count
     counts = {}
     @words.split.each do |word|
-      if counts.keys.include?(word)
-        counts[word] += 1
-      else
-        counts[word] = 1
-      end
+      counts[word] = counts.keys.include?(word) ? counts[word] + 1 : 1
+      # if counts.keys.include?(word)
+      #   counts[word] += 1
+      # else
+      #   counts[word] = 1
+      # end
     end
     counts
   end
