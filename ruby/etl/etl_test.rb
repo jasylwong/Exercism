@@ -28,7 +28,6 @@ class EtlTest < Minitest::Test
   end
 
   def test_multiple_scores_with_multiple_letters
-    skip
     old = {
       1 => ["A", "E"],
       2 => ["D", "G"]
