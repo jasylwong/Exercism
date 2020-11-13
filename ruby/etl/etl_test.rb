@@ -42,7 +42,6 @@ class EtlTest < Minitest::Test
   end
 
   def test_multiple_scores_with_differing_numbers_of_letters
-    skip
     old = {
       1 => ["A", "E", "I", "O", "U", "L", "N", "R", "S", "T"],
       2 => ["D", "G"],
