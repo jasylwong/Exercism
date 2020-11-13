@@ -1,8 +1,5 @@
-=begin
-Write your code for the 'ETL' exercise in this file. Make the tests in
-`etl_test.rb` pass.
-
-To get started with TDD, see the `README.md` file in your
-`ruby/etl` directory.
-=end
-
+module ETL
+  def self.transform(letters)
+    letters.values.flatten.to_h { |s| [s.downcase, s.ord - 64] }
+  end
+end
