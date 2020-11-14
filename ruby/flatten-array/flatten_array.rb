@@ -1,5 +1,5 @@
 module FlattenArray
   def self.flatten(list)
-    list.flatten
+    list.flatten.reject(&:nil?)
   end
 end
