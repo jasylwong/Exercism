@@ -9,7 +9,6 @@ class FlattenArrayTest < Minitest::Test
   end
 
   def test_flattens_array_with_just_integers_present
-    skip
     flat_array = FlattenArray.flatten([1, [2, 3, 4, 5, 6, 7], 8])
     assert_equal [1, 2, 3, 4, 5, 6, 7, 8], flat_array
   end
