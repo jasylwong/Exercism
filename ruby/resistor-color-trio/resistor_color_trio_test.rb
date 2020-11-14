@@ -12,7 +12,6 @@ class ResistorColorTrioTest < Minitest::Test
   end
 
   def test_red_and_black_and_red
-    skip
     assert_equal "Resistor value: 2 kiloohms", ResistorColorTrio.new(["red", "black", "red"]).label
   end
 

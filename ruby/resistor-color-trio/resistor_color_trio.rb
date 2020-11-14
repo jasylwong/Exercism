@@ -8,10 +8,13 @@ class ResistorColorTrio
   def label
     raise ArgumentError unless (@bands - BANDS).empty?
 
-    'Resistor value: '\
-    "#{BANDS.find_index(@bands[0])}"\
-    "#{BANDS.find_index(@bands[1])}"\
-    "#{@bands.last == 'black' ? nil : '0' * BANDS.find_index(@bands.last)}"\
-    ' ohms'
+    value = "#{BANDS.find_index(@bands[0])}"\
+            "#{BANDS.find_index(@bands[1])}"\
+            "#{@bands.last == 'black' ? nil : '0' * BANDS.find_index(@bands.last)}"
+
+    value_with_unit = value[-3..-1] == "000" ?
+                      "#{value.to_i / 1000} kiloohms" : "#{value} ohms"
+
+    "Resistor value: #{value_with_unit}"
   end
 end
