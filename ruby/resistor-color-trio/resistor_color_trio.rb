@@ -13,7 +13,7 @@ class ResistorColorTrio
             "#{@bands.last == 'black' ? nil : '0' * BANDS.find_index(@bands.last)}"
 
     value_with_unit = value[-3..-1] == "000" ?
-                      "#{value.to_i / 1000} kiloohms" : "#{value} ohms"
+                      "#{value[0..-4]} kiloohms" : "#{value} ohms"
 
     "Resistor value: #{value_with_unit}"
   end
