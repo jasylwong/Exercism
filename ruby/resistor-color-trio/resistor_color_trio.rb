@@ -1,8 +1,14 @@
-=begin
-Write your code for the 'Resistor Color Trio' exercise in this file. Make the tests in
-`resistor_color_trio_test.rb` pass.
+class ResistorColorTrio
+  BANDS = %w(black brown red orange yellow green blue violet grey white).freeze
 
-To get started with TDD, see the `README.md` file in your
-`ruby/resistor-color-trio` directory.
-=end
+  def initialize(bands)
+    @bands = bands
+  end
 
+  def label
+    'Resistor value: '\
+    "#{BANDS.find_index(@bands[0])}"\
+    "#{BANDS.find_index(@bands[1])}"\
+    ' ohms'
+  end
+end
