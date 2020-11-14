@@ -9,6 +9,7 @@ class ResistorColorTrio
     'Resistor value: '\
     "#{BANDS.find_index(@bands[0])}"\
     "#{BANDS.find_index(@bands[1])}"\
+    "#{@bands.last == 'black' ? nil : '0' * BANDS.find_index(@bands.last)}"\
     ' ohms'
   end
 end
