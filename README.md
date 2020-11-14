@@ -67,6 +67,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Phone Number](./ruby/phone-number)
 - [ETL](./ruby/etl)
 - [Resistor-Color-Trio](./ruby/resistor-color-trio)
+- [Flatten Array](./ruby/flatten-array)
 
 
 
