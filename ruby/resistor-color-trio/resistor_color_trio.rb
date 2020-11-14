@@ -6,6 +6,8 @@ class ResistorColorTrio
   end
 
   def label
+    raise ArgumentError unless (@bands - BANDS).empty?
+
     'Resistor value: '\
     "#{BANDS.find_index(@bands[0])}"\
     "#{BANDS.find_index(@bands[1])}"\

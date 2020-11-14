@@ -27,7 +27,6 @@ class ResistorColorTrioTest < Minitest::Test
   end
 
   def test_invalid_color
-    skip
     assert_raises(ArgumentError) do
       ResistorColorTrio.new(["yellow", "purple", "black"]).label
     end
