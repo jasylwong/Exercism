@@ -12,7 +12,6 @@ class HammingTest < Minitest::Test
   end
 
   def test_single_letter_different_strands
-    skip
     assert_equal 1, Hamming.compute('G', 'T')
   end
 
