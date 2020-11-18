@@ -6,6 +6,6 @@ end
 
 class String
   def histogram
-    { 'A' => 0, 'T' => 0, 'C' => 0, 'G' => 0 }
+    Hash[%w(A T C G).map { |n| [n, self.count(n)] }]
   end
 end
