@@ -69,6 +69,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Resistor-Color-Trio](./ruby/resistor-color-trio)
 - [Flatten Array](./ruby/flatten-array)
 - [Hamming](./ruby/hamming)
+- [Nucleotide Count](./ruby/nucleotide-count)
 
 
 
