@@ -1,6 +1,6 @@
 module Nucleotide
   def self.from_dna(strand)
-    raise ArgumentError unless strand.chars.reject { |n| %w(A T C G).include?n }.empty?
+    raise ArgumentError unless strand.count("^ATCG").zero?
     
     strand
   end
