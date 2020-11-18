@@ -8,6 +8,6 @@ end
 
 class String
   def histogram
-    Hash[%w(A T C G).map { |n| [n, self.count(n)] }]
+    Hash[%w(A T C G).map { |n| [n, count(n)] }]
   end
 end
