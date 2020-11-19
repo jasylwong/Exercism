@@ -12,4 +12,8 @@ class Triplet
   def product
     a * b * c
   end
+
+  def pythagorean?
+    a**2 + b**2 == c**2
+  end
 end
