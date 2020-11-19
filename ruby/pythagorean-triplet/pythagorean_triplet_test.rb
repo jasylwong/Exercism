@@ -37,7 +37,6 @@ class TripletTest < Minitest::Test
   end
 
   def test_where_sum_1000
-    skip
     triplets = Triplet.where(sum: 1_000, min_factor: 200, max_factor: 425)
     products = triplets.map(&:product)
     assert_equal [31_875_000], products
