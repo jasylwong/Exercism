@@ -17,9 +17,9 @@ class Triplet
     a**2 + b**2 == c**2
   end
 
-  def self.where(min_factor: 0, max_factor: 5)
+  def self.where(min_factor: 0, max_factor: 5, sum: nil)
     [*min_factor..max_factor].combination(3).to_a
       .map { |c| Triplet.new(*c) }
-      .select { |t| t.pythagorean? }
+      .select { |t| sum ? (t.pythagorean? && t.sum == sum) : t.pythagorean? }
   end
 end
