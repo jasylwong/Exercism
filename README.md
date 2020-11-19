@@ -70,6 +70,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Flatten Array](./ruby/flatten-array)
 - [Hamming](./ruby/hamming)
 - [Nucleotide Count](./ruby/nucleotide-count)
+- [Pythagorean Triplet](./ruby/pythagorean-triplet)
 
 
 
