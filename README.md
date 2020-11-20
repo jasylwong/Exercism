@@ -71,6 +71,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Hamming](./ruby/hamming)
 - [Nucleotide Count](./ruby/nucleotide-count)
 - [Pythagorean Triplet](./ruby/pythagorean-triplet)
+- [Sieve](./ruby/sieve)
 
 
 
