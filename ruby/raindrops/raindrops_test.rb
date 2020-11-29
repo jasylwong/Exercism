@@ -64,7 +64,6 @@ class RaindropsTest < Minitest::Test
   end
 
   def test_the_sound_for_52_is_52
-    skip
     assert_equal "52", Raindrops.convert(52)
   end
 
