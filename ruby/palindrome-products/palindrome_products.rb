@@ -1,7 +1,7 @@
 class Palindromes
-  def initialize(*range)
-    @min = range.first[:min_factor] || 1
-    @max = range.first[:max_factor]
+  def initialize(range)
+    @min = 1 || range[:min_factor]
+    @max = range[:max_factor]
   end
 
   def generate
