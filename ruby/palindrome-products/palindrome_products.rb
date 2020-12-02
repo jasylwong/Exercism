@@ -5,7 +5,8 @@ class Palindromes
   end
 
   def generate
-    [*@min..@max].select { |x| x.to_s == x.to_s.reverse }
+    [*@min..@max].map{ |x| [*@min..@max].map{ |y| x * y } }.flatten
+           .select { |x| x.to_s == x.to_s.reverse }
   end
 
   def largest
@@ -19,6 +20,7 @@ class Palindromes
 
   def factors
     (@min..@max).select{ |f| @value % f == 0 }
-                .map{ |f| [f, @value / f].sort }.uniq
+                .map{ |f| [f, @value / f].sort if (@value / f).between?(@min, @max) }
+                .compact.uniq
   end
 end
