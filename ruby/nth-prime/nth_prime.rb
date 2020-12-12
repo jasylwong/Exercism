@@ -1,5 +1,6 @@
 module Prime
   def self.nth(n)
+    raise ArgumentError if n.zero?
     return 2 if n == 1
 
     s, t = 2, 1
