@@ -74,6 +74,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Sieve](./ruby/sieve)
 - [Raindrops](./ruby/raindrops)
 - [Palindrome Products](./ruby/palindrome-products)
+- [Nth Prime](./ruby/nth-prime)
 
 
 
