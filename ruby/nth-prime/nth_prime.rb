@@ -5,7 +5,7 @@ module Prime
     s, t = 2, 1
     while t < n
       s += 1
-      t += 1 if [*2..s].any? { |x| (s - 1) % x == 0 }
+      t += 1 unless [*2..s-1].any? { |x| s % x == 0 }
     end
     s
   end
