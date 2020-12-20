@@ -8,7 +8,6 @@ class CollatzConjectureTest < Minitest::Test
   end
 
   def test_divide_if_even
-    skip
     assert_equal 4, CollatzConjecture.steps(16)
   end
 
