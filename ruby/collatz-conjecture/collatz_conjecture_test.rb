@@ -12,7 +12,6 @@ class CollatzConjectureTest < Minitest::Test
   end
 
   def test_even_and_odd_steps
-    skip
     assert_equal 9, CollatzConjecture.steps(12)
   end
 
