@@ -1,6 +1,6 @@
 module CollatzConjecture
   def self.steps(n)
-    raise ArgumentError if n == 0
+    raise ArgumentError if n <= 0
     
     steps = 0
     until n == 1
