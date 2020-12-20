@@ -51,7 +51,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Pangram](./ruby/pangram)
 - [Resistor Color](./ruby/resistor-color)
 
-### In progress / Awaiting review
+### Awaiting review
 - [Darts](./ruby/darts)
 - [Microwave](./ruby/microwave)
 - [Difference Of Squares](./ruby/difference-of-squares)
@@ -61,7 +61,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Space Age](./ruby/space-age)
 - [Anagram](./ruby/anagram)
 - [Triangle](./ruby/triangle)
-- [Transpose](./ruby/transpose)
 - [Grains](./ruby/grains)
 - [Word Count](./ruby/word-count)
 - [Saddle Points](./ruby/saddle-points)
@@ -71,11 +70,15 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Flatten Array](./ruby/flatten-array)
 - [Nucleotide Count](./ruby/nucleotide-count)
 - [Pythagorean Triplet](./ruby/pythagorean-triplet)
-- [Sieve](./ruby/sieve)
 - [Raindrops](./ruby/raindrops)
 - [Palindrome Products](./ruby/palindrome-products)
-- [Nth Prime](./ruby/nth-prime)
 - [Proverb](./ruby/proverb)
+- [Collatz Conjecture](./ruby/collatz-conjecture)
+
+### In progress
+- [Nth Prime](./ruby/nth-prime)
+- [Sieve](./ruby/sieve)
+- [Transpose](./ruby/transpose)
 
 
 
