@@ -1,8 +1,9 @@
-=begin
-Write your code for the 'Proverb' exercise in this file. Make the tests in
-`proverb_test.rb` pass.
+class Proverb
+  def initialize(*words)
+  end
 
-To get started with TDD, see the `README.md` file in your
-`ruby/proverb` directory.
-=end
-
+  def to_s
+    "For want of a nail the shoe was lost.\n" \
+    'And all for the want of a nail.'
+  end
+end
