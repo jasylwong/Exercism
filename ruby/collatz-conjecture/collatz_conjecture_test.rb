@@ -16,7 +16,6 @@ class CollatzConjectureTest < Minitest::Test
   end
 
   def test_large_number_of_even_and_odd_steps
-    skip
     assert_equal 152, CollatzConjecture.steps(1_000_000)
   end
 
