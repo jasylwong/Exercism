@@ -1,6 +1,8 @@
 class Anagram
-  def match(phrases)
-    phrases.select{ |phrase| qualifies?(phrase) }
+  attr_reader :phrase
+
+  def match(candidates)
+    candidates.select{ |candidate| qualifies?(candidate) }
   end
 
   private
@@ -9,8 +11,8 @@ class Anagram
     @phrase = phrase
   end
 
-  def qualifies?(phrase)
-    phrase.downcase.chars.sort == @phrase.downcase.chars.sort &&
-      phrase.downcase != @phrase.downcase
+  def qualifies?(candidate)
+    candidate.downcase.chars.sort == phrase.downcase.chars.sort &&
+      candidate.downcase != phrase.downcase
   end
 end
