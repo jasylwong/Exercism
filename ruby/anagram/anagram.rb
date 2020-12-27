@@ -1,6 +1,6 @@
 class Anagram
-  def initialize(word)
-    @word = word
+  def initialize(phrase)
+    @phrase = phrase
   end
 
   def match(anagrams)
@@ -9,11 +9,11 @@ class Anagram
 
   private
 
-  def letters_equal?(word)
-    word.downcase.chars.sort == @word.downcase.chars.sort
+  def letters_equal?(phrase)
+    phrase.downcase.chars.sort == @phrase.downcase.chars.sort
   end
 
-  def anagram_of_self?(word)
-    word.downcase == @word.downcase
+  def anagram_of_self?(phrase)
+    phrase.downcase == @phrase.downcase
   end
 end
