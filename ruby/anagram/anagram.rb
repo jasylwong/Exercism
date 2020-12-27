@@ -1,6 +1,6 @@
 class Anagram
   def match(phrases)
-    phrases.select{ |phrase| letters_equal?(phrase) && !anagram_of_self?(phrase) }
+    phrases.select{ |phrase| qualifies?(phrase) }
   end
 
   private
@@ -9,11 +9,8 @@ class Anagram
     @phrase = phrase
   end
 
-  def letters_equal?(phrase)
-    phrase.downcase.chars.sort == @phrase.downcase.chars.sort
-  end
-
-  def anagram_of_self?(phrase)
-    phrase.downcase == @phrase.downcase
+  def qualifies?(phrase)
+    phrase.downcase.chars.sort == @phrase.downcase.chars.sort &&
+      phrase.downcase != @phrase.downcase
   end
 end
