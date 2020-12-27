@@ -1,6 +1,6 @@
 class Anagram
   def match(phrases)
-    phrases.select{ |a| letters_equal?(a) && !anagram_of_self?(a) }
+    phrases.select{ |phrase| letters_equal?(phrase) && !anagram_of_self?(phrase) }
   end
 
   private
