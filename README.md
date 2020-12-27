@@ -45,6 +45,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Matrix](./ruby/matrix)
 - [Series](./ruby/series)
 - [Hamming](./ruby/hamming)
+- [Raindrops](./ruby/raindrops)
 
 ### Extra exercises completed:
 - [Gigasecond](./ruby/gigasecond)
@@ -70,7 +71,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Flatten Array](./ruby/flatten-array)
 - [Nucleotide Count](./ruby/nucleotide-count)
 - [Pythagorean Triplet](./ruby/pythagorean-triplet)
-- [Raindrops](./ruby/raindrops)
 - [Palindrome Products](./ruby/palindrome-products)
 - [Proverb](./ruby/proverb)
 - [Collatz Conjecture](./ruby/collatz-conjecture)
