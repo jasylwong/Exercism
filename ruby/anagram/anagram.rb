@@ -12,7 +12,14 @@ class Anagram
   end
 
   def qualifies?(candidate)
-    candidate.downcase.chars.sort == phrase.downcase.chars.sort &&
-      candidate.downcase != phrase.downcase
+    same_letters?(candidate) && different_word?(candidate)
+  end
+  
+  def same_letters?(candidate)
+    candidate.downcase.chars.sort == phrase.downcase.chars.sort
+  end
+  
+  def different_word?(candidate)
+    candidate.downcase != phrase.downcase
   end
 end
