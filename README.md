@@ -51,6 +51,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Gigasecond](./ruby/gigasecond)
 - [Pangram](./ruby/pangram)
 - [Resistor Color](./ruby/resistor-color)
+- [Anagram](./ruby/anagram)
 
 ### Awaiting review
 - [Darts](./ruby/darts)
@@ -60,7 +61,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Leap](./ruby/leap)
 - [Sum Of Multipes](./ruby/sum-of-multiples)
 - [Space Age](./ruby/space-age)
-- [Anagram](./ruby/anagram)
 - [Triangle](./ruby/triangle)
 - [Grains](./ruby/grains)
 - [Word Count](./ruby/word-count)
