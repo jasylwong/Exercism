@@ -80,6 +80,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Sieve](./ruby/sieve)
 - [Transpose](./ruby/transpose)
 - [Alphametics](./ruby/alphametics)
+- [Matching Brackets](./ruby/matching-brackets)
 
 
 
