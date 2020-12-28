@@ -79,6 +79,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Nth Prime](./ruby/nth-prime)
 - [Sieve](./ruby/sieve)
 - [Transpose](./ruby/transpose)
+- [Alphametics](./ruby/alphametics)
 
 
 
