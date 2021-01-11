@@ -8,7 +8,6 @@ class MatchingBracketsTest < Minitest::Test
   end
 
   def test_empty_string
-    skip
     assert Brackets.paired?('')
   end
 
