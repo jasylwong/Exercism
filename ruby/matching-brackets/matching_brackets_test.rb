@@ -24,7 +24,6 @@ class MatchingBracketsTest < Minitest::Test
   end
 
   def test_paired_with_whitespace
-    skip
     assert Brackets.paired?('{ }')
   end
 

@@ -2,14 +2,14 @@ module Brackets
   def self.paired?(string)
     string = string.split('')
 
-    return false if string.count('[') != string.count(']')
-    return false if string.count('{') != string.count('}')
-    return false if string.count('(') != string.count(')')
-    
-    (0...string.length).each do |i|
-      return false if string[i..-1].count('[') > string[i..-1].count(']')
-      return false if string[i..-1].count('{') > string[i..-1].count('}')
-      return false if string[i..-1].count('(') > string[i..-1].count(')')
+    pairs = {'{' => '}', '[' => ']', '(' => ')'}
+
+    pairs.each do |lhs, rhs|
+      return false if string.count(lhs) != string.count(rhs)
+      
+      (0...string.length).each do |i|
+        return false if string[i..-1].count(lhs) > string[i..-1].count(rhs)
+      end
     end
   end
 end
