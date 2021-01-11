@@ -16,7 +16,6 @@ class MatchingBracketsTest < Minitest::Test
   end
 
   def test_wrong_ordered_brackets
-    skip
     refute Brackets.paired?('}{')
   end
 
