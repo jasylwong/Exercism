@@ -20,7 +20,6 @@ class MatchingBracketsTest < Minitest::Test
   end
 
   def test_wrong_closing_bracket
-    skip
     refute Brackets.paired?('{]')
   end
 
