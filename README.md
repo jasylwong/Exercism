@@ -74,6 +74,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Palindrome Products](./ruby/palindrome-products)
 - [Proverb](./ruby/proverb)
 - [Collatz Conjecture](./ruby/collatz-conjecture)
+- [Perfect Numbers](./ruby/perfect-numbers)
 
 ### In progress
 - [Nth Prime](./ruby/nth-prime)
@@ -81,7 +82,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Transpose](./ruby/transpose)
 - [Alphametics](./ruby/alphametics)
 - [Matching Brackets](./ruby/matching-brackets)
-- [Perfect Numbers](./ruby/perfect-numbers)
 
 
 
