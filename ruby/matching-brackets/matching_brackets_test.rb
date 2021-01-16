@@ -32,32 +32,26 @@ class MatchingBracketsTest < Minitest::Test
   end
 
   def test_simple_nested_brackets
-    skip
     assert Brackets.paired?('{[]}')
   end
 
   def test_several_paired_brackets
-    skip
     assert Brackets.paired?('{}[]')
   end
 
   def test_paired_and_nested_brackets
-    skip
     assert Brackets.paired?('([{}({}[])])')
   end
 
   def test_unopened_closing_brackets
-    skip
     refute Brackets.paired?('{[)][]}')
   end
 
   def test_unpaired_and_nested_brackets
-    skip
     refute Brackets.paired?('([{])')
   end
 
   def test_paired_and_wrong_nested_brackets
-    skip
     refute Brackets.paired?('[({]})')
   end
 
