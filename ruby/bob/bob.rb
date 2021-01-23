@@ -1,5 +1,11 @@
 module Bob
   def self.hey(remark)
-    remark.upcase == remark ? 'Whoa, chill out!' : 'Whatever.'
+    if remark.upcase == remark
+      'Whoa, chill out!'
+    elsif remark[-1] == '?'
+      'Sure.'
+    else
+      'Whatever.'
+    end
   end
 end
