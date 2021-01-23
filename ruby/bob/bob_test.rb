@@ -49,13 +49,11 @@ class BobTest < Minitest::Test
   end
 
   def test_shouting_numbers
-    skip
     remark = "1, 2, 3 GO!"
     assert_equal "Whoa, chill out!", Bob.hey(remark), %q{Bob hears "1, 2, 3 GO!", and..}
   end
 
   def test_no_letters
-    skip
     remark = "1, 2, 3"
     assert_equal "Whatever.", Bob.hey(remark), %q{Bob hears "1, 2, 3", and..}
   end
