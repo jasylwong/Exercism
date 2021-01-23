@@ -75,6 +75,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Proverb](./ruby/proverb)
 - [Collatz Conjecture](./ruby/collatz-conjecture)
 - [Perfect Numbers](./ruby/perfect-numbers)
+- [Bob](./ruby/bob)
 
 ### In progress
 - [Nth Prime](./ruby/nth-prime)
@@ -83,7 +84,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Alphametics](./ruby/alphametics)
 - [Matching Brackets](./ruby/matching-brackets)
 - [Two Bucket](./ruby/two-bucket)
-- [Bob](./ruby/bob)
+- [Isogram](./ruby/isogram)
 
 
 
