@@ -99,25 +99,21 @@ class BobTest < Minitest::Test
   end
 
   def test_alternate_silence
-    skip
     remark = "\t\t\t\t\t\t\t\t\t\t"
     assert_equal "Fine. Be that way!", Bob.hey(remark), %q{Bob hears "\t\t\t\t\t\t\t\t\t\t", and..}
   end
 
   def test_multiple_line_question
-    skip
     remark = "\nDoes this cryogenic chamber make me look fat?\nNo."
     assert_equal "Whatever.", Bob.hey(remark), %q{Bob hears "\nDoes this cryogenic chamber make me look fat?\nNo.", and..}
   end
 
   def test_starting_with_whitespace
-    skip
     remark = "         hmmmmmmm..."
     assert_equal "Whatever.", Bob.hey(remark), %q{Bob hears "         hmmmmmmm...", and..}
   end
 
   def test_ending_with_whitespace
-    skip
     remark = "Okay if like my  spacebar  quite a bit?   "
     assert_equal "Sure.", Bob.hey(remark), %q{Bob hears "Okay if like my  spacebar  quite a bit?   ", and..}
   end
