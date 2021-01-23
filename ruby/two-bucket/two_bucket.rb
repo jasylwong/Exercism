@@ -1,8 +1,8 @@
-=begin
-Write your code for the 'Two Bucket' exercise in this file. Make the tests in
-`two_bucket_test.rb` pass.
+class TwoBucket
+  def initialize(size_one, size_two, goal, first)
+  end
 
-To get started with TDD, see the `README.md` file in your
-`ruby/two-bucket` directory.
-=end
-
+  def moves
+    
+  end
+end
