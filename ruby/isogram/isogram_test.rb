@@ -9,7 +9,6 @@ class IsogramTest < Minitest::Test
   end
 
   def test_isogram_with_only_lower_case_characters
-    skip
     input = "isogram"
     assert Isogram.isogram?(input), "Expected true, '#{input}' is an isogram"
   end
