@@ -83,6 +83,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Alphametics](./ruby/alphametics)
 - [Matching Brackets](./ruby/matching-brackets)
 - [Two Bucket](./ruby/two-bucket)
+- [Bob](./ruby/bob)
 
 
 
