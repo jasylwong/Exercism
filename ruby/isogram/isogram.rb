@@ -1,7 +1,7 @@
 class Isogram
-  def self.isogram?(input)
-    input = input.tr('- ', '').downcase
+  def self.isogram?(phrase)
+    modified_phrase = phrase.tr('- ', '').downcase
 
-    input.chars.uniq.sort == input.chars.sort
+    modified_phrase.chars.uniq.sort == modified_phrase.chars.sort
   end
 end
