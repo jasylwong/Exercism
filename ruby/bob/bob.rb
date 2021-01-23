@@ -6,6 +6,8 @@ module Bob
       'Whoa, chill out!'
     elsif remark[-1] == '?'
       'Sure.'
+    elsif remark.empty?
+      'Fine. Be that way!'
     else
       'Whatever.'
     end
