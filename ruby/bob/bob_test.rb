@@ -4,13 +4,11 @@ require_relative 'bob'
 # Common test data version: 1.6.0 42b9d45
 class BobTest < Minitest::Test
   def test_stating_something
-    # skip
     remark = "Tom-ay-to, tom-aaaah-to."
     assert_equal "Whatever.", Bob.hey(remark), %q{Bob hears "Tom-ay-to, tom-aaaah-to.", and..}
   end
 
   def test_shouting
-    skip
     remark = "WATCH OUT!"
     assert_equal "Whoa, chill out!", Bob.hey(remark), %q{Bob hears "WATCH OUT!", and..}
   end

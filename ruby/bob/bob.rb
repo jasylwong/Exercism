@@ -1,5 +1,5 @@
 module Bob
   def self.hey(remark)
-    'Whatever.'
+    remark.upcase == remark ? 'Whoa, chill out!' : 'Whatever.'
   end
 end
