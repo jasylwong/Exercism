@@ -1,6 +1,6 @@
 module Bob
   def self.hey(remark)
-    if remark.upcase == remark && remark[-1] == '?'
+    if remark.upcase == remark && remark[-1] == '?' && remark.count("a-zA-Z") > 0
       "Calm down, I know what I'm doing!"
     elsif remark.upcase == remark && remark.count("a-zA-Z") > 0
       'Whoa, chill out!'
