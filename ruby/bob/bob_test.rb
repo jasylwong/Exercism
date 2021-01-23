@@ -24,31 +24,26 @@ class BobTest < Minitest::Test
   end
 
   def test_asking_a_numeric_question
-    skip
     remark = "You are, what, like 15?"
     assert_equal "Sure.", Bob.hey(remark), %q{Bob hears "You are, what, like 15?", and..}
   end
 
   def test_asking_gibberish
-    skip
     remark = "fffbbcbeab?"
     assert_equal "Sure.", Bob.hey(remark), %q{Bob hears "fffbbcbeab?", and..}
   end
 
   def test_talking_forcefully
-    skip
     remark = "Hi there!"
     assert_equal "Whatever.", Bob.hey(remark), %q{Bob hears "Hi there!", and..}
   end
 
   def test_using_acronyms_in_regular_speech
-    skip
     remark = "It's OK if you don't want to go work for NASA."
     assert_equal "Whatever.", Bob.hey(remark), %q{Bob hears "It's OK if you don't want to go work for NASA.", and..}
   end
 
   def test_forceful_question
-    skip
     remark = "WHAT'S GOING ON?"
     assert_equal "Calm down, I know what I'm doing!", Bob.hey(remark), %q{Bob hears "WHAT'S GOING ON?", and..}
   end
