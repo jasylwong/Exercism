@@ -8,4 +8,8 @@ module RunLengthEncoding
 
     output
   end
+
+  def self.decode(input)
+    input
+  end
 end
