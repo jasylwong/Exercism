@@ -14,7 +14,6 @@ class ArrayTest < Minitest::Test
   end
 
   def test_accumulate_upcases
-    skip
     result = %w(hello world).accumulate(&:upcase)
     assert_equal %w(HELLO WORLD), result
   end

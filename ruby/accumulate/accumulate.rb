@@ -6,6 +6,6 @@ class Array
     # #   i += 1
     # # end
     # block.call(yield)
-    self.each_with_index { |n, i| self[i] = yield(n, i) }
+    self.each_with_index { |n, i| self[i] = yield(n) }
   end
 end
