@@ -19,13 +19,11 @@ class ArrayTest < Minitest::Test
   end
 
   def test_accumulate_reversed_strings
-    skip
     result = %w(the quick brown fox etc).accumulate(&:reverse)
     assert_equal %w(eht kciuq nworb xof cte), result
   end
 
   def test_accumulate_recursively
-    skip
     result = %w(a b c).accumulate do |char|
       %w(1 2 3).accumulate do |digit|
         "#{char}#{digit}"
@@ -35,7 +33,6 @@ class ArrayTest < Minitest::Test
   end
 
   def test_do_not_change_in_place
-    skip
     original = [1, 2, 3]
     copy = original.dup
     original.accumulate { |n| n * n }
