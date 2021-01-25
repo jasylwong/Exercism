@@ -7,7 +7,6 @@ class ArrayTest < Minitest::Test
   end
 
   def test_accumulate_squares
-    skip
     result = [1, 2, 3].accumulate do |number|
       number * number
     end
