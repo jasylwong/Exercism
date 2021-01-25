@@ -86,6 +86,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Matching Brackets](./ruby/matching-brackets)
 - [Two Bucket](./ruby/two-bucket)
 - [Run Length Encoding](./ruby/run-length-encoding)
+- [Accumulate](./ruby/accumulate)
 
 
 
