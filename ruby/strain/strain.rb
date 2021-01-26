@@ -1,5 +1,5 @@
 class Array
   def keep(&block)
-    map { |i| yield(i) }
+    map { |i| i if yield(i) }
   end
 end
