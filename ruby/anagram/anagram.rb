@@ -1,11 +1,11 @@
 class Anagram
-  attr_reader :phrase
-
   def match(candidates)
     candidates.select{ |candidate| qualifies?(candidate) }
   end
 
   private
+
+  attr_reader :phrase
 
   def initialize(phrase)
     @phrase = phrase
