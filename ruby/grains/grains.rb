@@ -1,10 +1,11 @@
 module Grains
   BOARD_SQUARES = 1..64
+  GRAIN_MULTIPLIER = 2
 
-  def self.square(location)
-    raise ArgumentError if !BOARD_SQUARES.include? location
+  def self.square(board_location)
+    raise ArgumentError if !BOARD_SQUARES.include? board_location
 
-    2 ** (location - 1)
+    GRAIN_MULTIPLIER ** (board_location - 1)
   end
 
   def self.total
