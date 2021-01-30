@@ -6,6 +6,6 @@ module Grains
   end
 
   def self.total
-    [*1..64].map { |s| self.square(s) }.reduce(:+)
+    [*1..64].map { |s| self.square(s) }.sum
   end
 end
