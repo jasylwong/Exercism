@@ -6,11 +6,12 @@ class Darts
   end
 
   def score
-    if distance_from_centre <= 1
+    case distance_from_centre
+    when 0..1
       10
-    elsif distance_from_centre <= 5
+    when 1..5
       5
-    elsif distance_from_centre <= 10
+    when 5..10
       1
     else
       0
