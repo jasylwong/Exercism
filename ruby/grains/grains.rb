@@ -1,8 +1,8 @@
 module Grains
-  def self.square(num)
-    raise ArgumentError if !num.between?(1, 64)
+  def self.square(location)
+    raise ArgumentError if !location.between?(1, 64)
 
-    2 ** (num - 1)
+    2 ** (location - 1)
   end
 
   def self.total
