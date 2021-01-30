@@ -5,10 +5,14 @@ class Anagram
 
   private
 
-  attr_reader :phrase
+  attr_reader :letters
 
   def initialize(phrase)
-    @phrase = phrase
+    @letters = normalized(phrase)
+  end
+
+  def normalized(phrase)
+    phrase.downcase.chars
   end
 
   def qualifies?(candidate)
@@ -16,10 +20,10 @@ class Anagram
   end
   
   def same_letters?(candidate)
-    candidate.downcase.chars.sort == phrase.downcase.chars.sort
+    normalized(candidate).sort == letters.sort
   end
   
   def different_word?(candidate)
-    candidate.downcase != phrase.downcase
+    normalized(candidate) != letters
   end
 end
