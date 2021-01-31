@@ -9,6 +9,6 @@ module Grains
   end
 
   def self.total
-    [*BOARD_SQUARES].map { |s| self.square(s) }.sum
+    [*BOARD_SQUARES].map { |s| square(s) }.sum
   end
 end
