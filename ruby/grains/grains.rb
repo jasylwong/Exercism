@@ -9,6 +9,6 @@ module Grains
   end
 
   def self.total
-    [*BOARD_SQUARES].map { |s| square(s) }.sum
+    GRAIN_MULTIPLIER ** BOARD_SQUARES.last - 1
   end
 end
