@@ -13,7 +13,6 @@ class Darts
   end
 
   def score
-    TARGET.select{ |k, _v| k.include? distance_from_centre }
-                  .values.first
+    TARGET.find{ |radius, _points| radius.include? distance_from_centre }.last
   end
 end
