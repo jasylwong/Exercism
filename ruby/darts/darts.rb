@@ -1,18 +1,33 @@
 class Darts
-  attr_reader :distance_from_centre
-
-  TARGET = {
-    0..1 => 10,
-    1..5 => 5,
-    5..10 => 1,
-    10.. => 0
+  BOARD = {
+    inner_circle: { points: 10, distance: 0..1 },
+    middle_circle: { points: 5, distance: 1..5 },
+    outer_circle: { points: 1, distance: 5..10 },
+    outside_target: { points: 0 }
   }
 
-  def initialize(x, y)
-    @distance_from_centre = Math.sqrt(x**2 + y**2)
+  def score
+    case throw
+    when BOARD[:inner_circle][:distance]
+      BOARD[:inner_circle][:points]
+    when BOARD[:middle_circle][:distance]
+      BOARD[:middle_circle][:points]
+    when BOARD[:outer_circle][:distance]
+      BOARD[:outer_circle][:points]
+    else
+      BOARD[:outside_target][:points]
+    end
   end
 
-  def score
-    TARGET.find{ |radius, _points| radius.include? distance_from_centre }.last
+  private
+
+  attr_reader :x, :y
+
+  def initialize(x, y)
+    @x, @y = x, y
+  end
+
+  def throw
+    Math.sqrt(x * x + y * y)
   end
 end
