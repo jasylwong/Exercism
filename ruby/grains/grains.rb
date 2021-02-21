@@ -1,15 +1,15 @@
 module Grains
-  BOARD = 64
+  MAX_SQUARES = 64
   MULTIPLIER = 2
 
-  def self.square(board_location)
-    raise BoardLocationError unless (1..BOARD).include? board_location
+  def self.square(location)
+    raise BoardLocationError unless (1..MAX_SQUARES).include? location
 
-    MULTIPLIER**(board_location - 1)
+    MULTIPLIER**(location - 1)
   end
 
   def self.total
-    MULTIPLIER**BOARD - 1
+    MULTIPLIER**MAX_SQUARES - 1
   end
 
   class BoardLocationError < ArgumentError
