@@ -52,9 +52,9 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Pangram](./ruby/pangram)
 - [Resistor Color](./ruby/resistor-color)
 - [Anagram](./ruby/anagram)
+- [Darts](./ruby/darts)
 
 ### Awaiting review
-- [Darts](./ruby/darts)
 - [Microwave](./ruby/microwave)
 - [Difference Of Squares](./ruby/difference-of-squares)
 - [RNA Transcription](./ruby/rna-transcription)

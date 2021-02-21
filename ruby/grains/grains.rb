@@ -1,20 +1,21 @@
 module Grains
   BOARD = 64
-  GRAIN_MULTIPLIER = 2
+  MULTIPLIER = 2
 
   def self.square(board_location)
-    raise BoardLocationError, 'Location must exist on the board.' unless (1..BOARD).include? board_location
+    raise BoardLocationError unless (1..BOARD).include? board_location
 
-    GRAIN_MULTIPLIER**(board_location - 1)
+    MULTIPLIER**(board_location - 1)
   end
 
   def self.total
-    GRAIN_MULTIPLIER**BOARD - 1
+    MULTIPLIER**BOARD - 1
   end
 
-  private
-
   class BoardLocationError < ArgumentError
+    def initialize(message = 'Location must exist on the board.')
+      super
+    end
   end
 end
 
