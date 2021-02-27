@@ -48,11 +48,12 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Raindrops](./ruby/raindrops)
 
 ### Extra exercises completed:
-- [Gigasecond](./ruby/gigasecond)
-- [Pangram](./ruby/pangram)
-- [Resistor Color](./ruby/resistor-color)
 - [Anagram](./ruby/anagram)
 - [Darts](./ruby/darts)
+- [Gigasecond](./ruby/gigasecond)
+- [Grains](./ruby/grains)
+- [Pangram](./ruby/pangram)
+- [Resistor Color](./ruby/resistor-color)
 
 ### Awaiting review
 - [Microwave](./ruby/microwave)
@@ -62,7 +63,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Sum Of Multipes](./ruby/sum-of-multiples)
 - [Space Age](./ruby/space-age)
 - [Triangle](./ruby/triangle)
-- [Grains](./ruby/grains)
 - [Word Count](./ruby/word-count)
 - [Saddle Points](./ruby/saddle-points)
 - [Phone Number](./ruby/phone-number)
