@@ -1,7 +1,7 @@
 class Isogram
   def self.isogram?(phrase)
-    modified_phrase = phrase.downcase.scan(/\w/)
+    phrase_letters = phrase.downcase.scan(/\w/)
 
-    modified_phrase.uniq == modified_phrase
+    phrase_letters.uniq == phrase_letters
   end
 end
