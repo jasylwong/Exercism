@@ -49,14 +49,12 @@ class AllergiesTest < Minitest::Test
   end
 
   def test_allergic_to_just_strawberries
-    skip
     allergies = Allergies.new(8)
     expected_items = ["strawberries"]
     assert_equal expected_items, allergies.list.sort
   end
 
   def test_allergic_to_eggs_and_peanuts
-    skip
     allergies = Allergies.new(3)
     expected_items = ["eggs", "peanuts"]
     assert_equal expected_items, allergies.list.sort
