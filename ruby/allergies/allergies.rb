@@ -9,7 +9,7 @@ class Allergies
 
   def initialize(score)
     @score = score
-    @list = extract_allergies
+    @list = list_allergies
   end
 
   def allergic_to?(item)
@@ -18,11 +18,11 @@ class Allergies
 
   private
 
-  def extract_allergies
-    score_dup = @score
+  def list_allergies
+    score_counter = @score.dup
 
     ITEMS.select do |value, _item|
-      score_dup -= value if score_dup >= value
+      score_counter -= value if score_counter >= value
     end.values
   end
 end
