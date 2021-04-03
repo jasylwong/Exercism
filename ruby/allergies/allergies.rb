@@ -5,13 +5,15 @@ class Allergies
   }.freeze
   private_constant :ITEMS
 
+  attr_reader :list
+
   def initialize(score)
     @score = score
-    @allergies = extract_allergies
+    @list = extract_allergies
   end
 
   def allergic_to?(item)
-    @allergies.include?(item)
+    @list.include?(item)
   end
 
   private
