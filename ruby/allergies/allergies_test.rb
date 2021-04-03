@@ -73,7 +73,6 @@ class AllergiesTest < Minitest::Test
   end
 
   def test_allergic_to_everything
-    skip
     allergies = Allergies.new(255)
     expected_items = ["cats", "chocolate", "eggs", "peanuts", "pollen", "shellfish", "strawberries", "tomatoes"]
     assert_equal expected_items, allergies.list.sort
