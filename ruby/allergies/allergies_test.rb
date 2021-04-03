@@ -23,7 +23,6 @@ class AllergiesTest < Minitest::Test
   end
 
   def test_allergic_to_strawberries_but_not_peanuts
-    skip
     allergies = Allergies.new(9)
     assert allergies.allergic_to?('eggs')
     refute allergies.allergic_to?('peanuts')
