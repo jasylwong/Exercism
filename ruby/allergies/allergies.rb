@@ -1,7 +1,7 @@
 class Allergies
   ITEMS = {
-    128 => 'cats', 64 => 'pollen', 32 => 'chocolate', 16 => 'tomatoes',
-    8 => 'strawberries', 4 => 'shellfish', 2 => 'peanuts', 1 => 'eggs'
+    1 => 'eggs', 2 => 'peanuts', 4 => 'shellfish', 8 => 'strawberries', 
+    16 => 'tomatoes', 32 => 'chocolate', 64 => 'pollen', 128 => 'cats'
   }.freeze
   private_constant :ITEMS
 
@@ -19,10 +19,6 @@ class Allergies
   private
 
   def list_allergies
-    score_counter = @score.dup
-
-    ITEMS.select do |value, _item|
-      score_counter -= value if score_counter >= value
-    end.values
+    ITEMS.select{ |value, _item| @score & value > 0 }.values
   end
 end
