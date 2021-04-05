@@ -78,6 +78,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Bob](./ruby/bob)
 - [Isogram](./ruby/isogram)
 - [Accumulate](./ruby/accumulate)
+- [Allergies](./ruby/allergies)
 
 ### In progress
 - [Nth Prime](./ruby/nth-prime)
@@ -88,6 +89,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Two Bucket](./ruby/two-bucket)
 - [Run Length Encoding](./ruby/run-length-encoding)
 - [Strain](./ruby/strain)
+- [Scrabble Score](./ruby/scrabble-score)
 
 
 
