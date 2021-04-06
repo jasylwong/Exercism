@@ -18,4 +18,12 @@ class Robot
   def turn_left
     @direction_index = (@direction_index + 3) % 4 
   end
+
+  def at(x, y)
+    @coordinates = [x, y]
+  end
+
+  def coordinates
+    @coordinates
+  end
 end
