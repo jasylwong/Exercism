@@ -1,5 +1,5 @@
 class Robot
-  DIRECTIONS = { north: 1, east: 2, south: 3, west: 4 }.freeze
+  DIRECTIONS = { north: 0, east: 1, south: 2, west: 3 }.freeze
 
   def orient(direction)
     raise ArgumentError if !DIRECTIONS.keys.include?(direction)
@@ -12,10 +12,10 @@ class Robot
   end
 
   def turn_right
-    @direction_index = @direction_index % 4 + 1
+    @direction_index = (@direction_index + 1) % 4 
   end
 
   def turn_left
-    @direction_index = @direction_index % 4 + 3
+    @direction_index = (@direction_index + 3) % 4 
   end
 end
