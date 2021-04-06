@@ -14,4 +14,8 @@ class Robot
   def turn_right
     @direction_index = @direction_index % 4 + 1
   end
+
+  def turn_left
+    @direction_index = @direction_index % 4 + 3
+  end
 end
