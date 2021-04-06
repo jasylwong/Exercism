@@ -26,4 +26,12 @@ class Robot
   def coordinates
     @coordinates
   end
+
+  def advance
+    if @direction_index % 2 == 0
+      @coordinates[1] += bearing == :north ? 1 : -1
+    else
+      @coordinates[0] += bearing == :east ? 1 : -1
+    end
+  end
 end
