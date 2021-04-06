@@ -1,11 +1,17 @@
 class Robot
-  def orient(direction)
-    raise ArgumentError if ![:east, :west, :north, :south].include?(direction)
+  DIRECTIONS = { north: 1, east: 2, south: 3, west: 4 }.freeze
 
-    @direction = direction
+  def orient(direction)
+    raise ArgumentError if !DIRECTIONS.keys.include?(direction)
+
+    @direction_index = DIRECTIONS[direction]
   end
 
   def bearing
-    @direction
+    DIRECTIONS.invert[@direction_index]
+  end
+
+  def turn_right
+    @direction_index = @direction_index % 4 + 1
   end
 end
