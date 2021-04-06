@@ -4,7 +4,7 @@ Test-driven coding challenges as found on [exercism.io](https://exercism.io) tha
 
 For more info on each challenge, see the README in the relevant sub-folder.
 
-## JavaScript Track
+# JavaScript Track
 ### Core exercises completed:
 
 - [Hello World](./javascript/hello-world)
@@ -32,9 +32,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 
 
-
-
-## Ruby Track
+# Ruby Track
 ### Core exercises completed:
 
 - [Hello World](./ruby/hello-world)
@@ -56,40 +54,43 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Resistor Color](./ruby/resistor-color)
 
 ### Awaiting review
-- [Microwave](./ruby/microwave)
-- [Difference Of Squares](./ruby/difference-of-squares)
-- [RNA Transcription](./ruby/rna-transcription)
-- [Leap](./ruby/leap)
-- [Sum Of Multipes](./ruby/sum-of-multiples)
-- [Space Age](./ruby/space-age)
-- [Triangle](./ruby/triangle)
-- [Word Count](./ruby/word-count)
-- [Saddle Points](./ruby/saddle-points)
-- [Phone Number](./ruby/phone-number)
-- [ETL](./ruby/etl)
-- [Resistor-Color-Trio](./ruby/resistor-color-trio)
-- [Flatten Array](./ruby/flatten-array)
-- [Nucleotide Count](./ruby/nucleotide-count)
-- [Pythagorean Triplet](./ruby/pythagorean-triplet)
-- [Palindrome Products](./ruby/palindrome-products)
-- [Proverb](./ruby/proverb)
-- [Collatz Conjecture](./ruby/collatz-conjecture)
-- [Perfect Numbers](./ruby/perfect-numbers)
-- [Bob](./ruby/bob)
-- [Isogram](./ruby/isogram)
 - [Accumulate](./ruby/accumulate)
 - [Allergies](./ruby/allergies)
+- [Bob](./ruby/bob)
+- [Collatz Conjecture](./ruby/collatz-conjecture)
+- [Difference Of Squares](./ruby/difference-of-squares)
+- [ETL](./ruby/etl)
+- [Flatten Array](./ruby/flatten-array)
+- [Isogram](./ruby/isogram)
+- [Leap](./ruby/leap)
+- [Microwave](./ruby/microwave)
+- [Nucleotide Count](./ruby/nucleotide-count)
+- [Palindrome Products](./ruby/palindrome-products)
+- [Perfect Numbers](./ruby/perfect-numbers)
+- [Phone Number](./ruby/phone-number)
+- [Proverb](./ruby/proverb)
+- [Pythagorean Triplet](./ruby/pythagorean-triplet)
+- [RNA Transcription](./ruby/rna-transcription)
+- [Resistor-Color-Trio](./ruby/resistor-color-trio)
+- [Saddle Points](./ruby/saddle-points)
+- [Scrabble Score](./ruby/scrabble-score)
+- [Space Age](./ruby/space-age)
+- [Sum Of Multipes](./ruby/sum-of-multiples)
+- [Triangle](./ruby/triangle)
+- [Word Count](./ruby/word-count)
+
 
 ### In progress
-- [Nth Prime](./ruby/nth-prime)
-- [Sieve](./ruby/sieve)
-- [Transpose](./ruby/transpose)
 - [Alphametics](./ruby/alphametics)
 - [Matching Brackets](./ruby/matching-brackets)
-- [Two Bucket](./ruby/two-bucket)
+- [Nth Prime](./ruby/nth-prime)
+- [Robot Simulator](./ruby/robot-simulator)
 - [Run Length Encoding](./ruby/run-length-encoding)
+- [Sieve](./ruby/sieve)
 - [Strain](./ruby/strain)
-- [Scrabble Score](./ruby/scrabble-score)
+- [Transpose](./ruby/transpose)
+- [Two Bucket](./ruby/two-bucket)
+
 
 
 
