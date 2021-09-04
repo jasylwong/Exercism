@@ -1,11 +1,10 @@
 module SavingsAccount
   def self.interest_rate(balance)
-    case balance
-    when -Float::INFINITY...0
+    if balance.negative?
       -3.213
-    when 0...1000
+    elsif balance < 1000
       0.5
-    when 1000...5000
+    elsif balance < 5000
       1.621
     else
       2.475
@@ -13,14 +12,16 @@ module SavingsAccount
   end
 
   def self.annual_balance_update(balance)
-    balance * (100 + (balance <=> 0.0) * interest_rate(balance))/100
+    interest = (balance.abs * interest_rate(balance))/100
+    balance + interest
   end
 
   def self.years_before_desired_balance(current_balance, desired_balance)
     years = 0
+    balance = current_balance
 
-    while current_balance < desired_balance
-      current_balance = annual_balance_update(current_balance)
+    while balance < desired_balance
+      balance = annual_balance_update(balance)
       years += 1
     end
 

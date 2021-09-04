@@ -60,6 +60,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Simple Calculator](./ruby/simple-calculator)
 - [Assembly Line](./ruby/assembly-line)
 - [Moviegoer](./ruby/moviegoer)
+- [Savings Account](./ruby/savings-account)
 
 
 ### Awaiting review
