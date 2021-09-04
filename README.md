@@ -55,6 +55,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [ETL](./ruby/etl)
 - [Lasagna](./ruby/lasagna)
 - [Amusement Park](./ruby/amusement-park)
+- [Log line Parser](./ruby/log-line-parser)
 
 
 ### Awaiting review
