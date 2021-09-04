@@ -12,18 +12,17 @@ class Scrabble
     J: 1, W: 4,
     K: 5, X: 8,
     L: 1, Y: 4,
-    M: 3, Z: 10,
-    "": 0
+    M: 3, Z: 10
   }
 
   def initialize(word)
-    @word = word
+    @word = word&.upcase
   end
 
   def score
-    return 0 if @word.to_s[/^[a-zA-Z]+$/].nil?
+    return 0 if @word.nil?
 
-    @word.chars.map { |c| TILES[c.upcase.to_sym] }.sum
+    @word.chars.map { |c| TILES.fetch(c.upcase.to_sym, 0) }.sum
   end
 
   def self.score(word)
