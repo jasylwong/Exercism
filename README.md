@@ -53,6 +53,8 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Pangram](./ruby/pangram)
 - [Resistor Color](./ruby/resistor-color)
 - [ETL](./ruby/etl)
+- [Lasagna](./ruby/lasagna)
+- [Amusement Park](./ruby/amusement-park)
 
 
 ### Awaiting review
@@ -79,7 +81,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Sum Of Multipes](./ruby/sum-of-multiples)
 - [Triangle](./ruby/triangle)
 - [Word Count](./ruby/word-count)
-- [Lasagna](./ruby/lasagna)
 
 
 ### In progress
