@@ -52,6 +52,8 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Grains](./ruby/grains)
 - [Pangram](./ruby/pangram)
 - [Resistor Color](./ruby/resistor-color)
+- [ETL](./ruby/etl)
+
 
 ### Awaiting review
 - [Accumulate](./ruby/accumulate)
@@ -59,7 +61,6 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Bob](./ruby/bob)
 - [Collatz Conjecture](./ruby/collatz-conjecture)
 - [Difference Of Squares](./ruby/difference-of-squares)
-- [ETL](./ruby/etl)
 - [Flatten Array](./ruby/flatten-array)
 - [Isogram](./ruby/isogram)
 - [Leap](./ruby/leap)
@@ -78,6 +79,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Sum Of Multipes](./ruby/sum-of-multiples)
 - [Triangle](./ruby/triangle)
 - [Word Count](./ruby/word-count)
+- [Lasagna](./ruby/lasagna)
 
 
 ### In progress
