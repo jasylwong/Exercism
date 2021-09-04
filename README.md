@@ -58,6 +58,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Amusement Park Improvements](./ruby/amusement-park-improvements)
 - [Log line Parser](./ruby/log-line-parser)
 - [Simple Calculator](./ruby/simple-calculator)
+- [Assembly Line](./ruby/assembly-line)
 
 
 ### Awaiting review
