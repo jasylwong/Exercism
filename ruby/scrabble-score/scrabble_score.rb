@@ -1,4 +1,6 @@
 class Scrabble
+  attr_reader :letters
+
   TILES = {
     A: 1, N: 1,
     B: 3, O: 1,
@@ -14,15 +16,14 @@ class Scrabble
     L: 1, Y: 4,
     M: 3, Z: 10
   }
+  TILES.default = 0
 
   def initialize(word)
-    @word = word&.upcase
+    @letters = word.to_s.upcase.chars.map(&:to_sym)
   end
 
   def score
-    return 0 if @word.nil?
-
-    @word.chars.map { |c| TILES.fetch(c.upcase.to_sym, 0) }.sum
+    letters.sum { |c| TILES[c] }
   end
 
   def self.score(word)
