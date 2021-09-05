@@ -61,6 +61,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Assembly Line](./ruby/assembly-line)
 - [Moviegoer](./ruby/moviegoer)
 - [Savings Account](./ruby/savings-account)
+- [Bird Count](./ruby/bird-count)
 
 
 ### Awaiting review
