@@ -62,6 +62,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Moviegoer](./ruby/moviegoer)
 - [Savings Account](./ruby/savings-account)
 - [Bird Count](./ruby/bird-count)
+- [Boutique Inventory](./ruby/boutique-inventory)
 
 
 ### Awaiting review

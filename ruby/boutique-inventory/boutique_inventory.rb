@@ -1,4 +1,6 @@
 class BoutiqueInventory
+  CHEAP_PRICE_MAX = 30
+
   def initialize(items)
     @items = items
   end
@@ -8,7 +10,7 @@ class BoutiqueInventory
   end
 
   def cheap
-    items.select { |item| item[:price] < 30 }
+    items.select { |item| item[:price] < CHEAP_PRICE_MAX }
   end
 
   def out_of_stock
@@ -20,7 +22,7 @@ class BoutiqueInventory
   end
 
   def total_stock
-    items.map { |items| items[:quantity_by_size].values }.flatten.sum
+    items.flat_map { |items| items[:quantity_by_size].values }.sum
   end
 
   private
