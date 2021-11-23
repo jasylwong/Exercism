@@ -12,6 +12,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Freelancer Rates](./javascript/freelancer-rates)
 - [Lasagna](./javascript/lasagna)
 - [Pangram](./javascript/pangram)
+- [Poetry Club Door Policy](./javascript/poetry-club-door-policy)
 - [Resistor Color](./javascript/resistor-color)
 - [Resistor Color Duo](./javascript/resistor-color-duo)
 - [RNA Transcription](./javascript/rna-transcription)
