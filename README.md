@@ -9,7 +9,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 - [Annalyn's Infiltration](./javascript/annalyns-infiltration)
 - [Hello World](./javascript/hello-world)
-- [Elyses Enchantments](./javascript/hello-world)
+- [Elyses Enchantments](./javascript/elyses-enchantments)
 - [Freelancer Rates](./javascript/freelancer-rates)
 - [Gigasecond](./javascript/gigasecond)
 - [Lasagna](./javascript/lasagna)
@@ -20,6 +20,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [RNA Transcription](./javascript/rna-transcription)
 - [Space Age](./javascript/space-age)
 - [Two Fer](./javascript/two-fer)
+- [Vehicle Purchase](./javascript/vehicle-purchase)
 
 ### Extra exercises completed:
 - [Collatz Conjecture](./javascript/collatz-conjecture)
