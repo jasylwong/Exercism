@@ -9,8 +9,9 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 - [Annalyn's Infiltration](./javascript/annalyns-infiltration)
 - [Hello World](./javascript/hello-world)
-- [Gigasecond](./javascript/gigasecond)
+- [Elyses Enchantments](./javascript/hello-world)
 - [Freelancer Rates](./javascript/freelancer-rates)
+- [Gigasecond](./javascript/gigasecond)
 - [Lasagna](./javascript/lasagna)
 - [Pangram](./javascript/pangram)
 - [Poetry Club Door Policy](./javascript/poetry-club-door-policy)
