@@ -7,6 +7,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 # JavaScript Track
 ### Core exercises completed:
 
+- [Annalyn's Infiltration](./javascript/annalyns-infiltration)
 - [Hello World](./javascript/hello-world)
 - [Gigasecond](./javascript/gigasecond)
 - [Freelancer Rates](./javascript/freelancer-rates)
