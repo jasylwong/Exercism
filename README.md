@@ -8,19 +8,20 @@ For more info on each challenge, see the README in the relevant sub-folder.
 ### Core exercises completed:
 
 - [Hello World](./javascript/hello-world)
-- [Two Fer](./javascript/two-fer)
+- [Gigasecond](./javascript/gigasecond)
+- [Lasagna](./javascript/lasagna)
+- [Pangram](./javascript/pangram)
 - [Resistor Color](./javascript/resistor-color)
 - [Resistor Color Duo](./javascript/resistor-color-duo)
-- [Gigasecond](./javascript/gigasecond)
 - [RNA Transcription](./javascript/rna-transcription)
 - [Space Age](./javascript/space-age)
-- [Pangram](./javascript/pangram)
+- [Two Fer](./javascript/two-fer)
 
 ### Extra exercises completed:
-- [Protein Translation](./javascript/protein-translation)
-- [Leap](./javascript/leap)
-- [Reverse String](./javascript/reverse-string)
 - [Collatz Conjecture](./javascript/collatz-conjecture)
+- [Leap](./javascript/leap)
+- [Protein Translation](./javascript/protein-translation)
+- [Reverse String](./javascript/reverse-string)
 - [Triangle](./javascript/triangle)
 
 ### In progress / Awaiting review
