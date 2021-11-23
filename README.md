@@ -9,6 +9,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 - [Hello World](./javascript/hello-world)
 - [Gigasecond](./javascript/gigasecond)
+- [Freelancer Rates](./javascript/freelancer-rates)
 - [Lasagna](./javascript/lasagna)
 - [Pangram](./javascript/pangram)
 - [Resistor Color](./javascript/resistor-color)
