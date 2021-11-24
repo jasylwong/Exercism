@@ -9,10 +9,11 @@ For more info on each challenge, see the README in the relevant sub-folder.
 
 - [Annalyn's Infiltration](./javascript/annalyns-infiltration)
 - [Bird Watcher](./javascript/bird-watcher)
-- [Hello World](./javascript/hello-world)
 - [Elyses Enchantments](./javascript/elyses-enchantments)
 - [Freelancer Rates](./javascript/freelancer-rates)
 - [Gigasecond](./javascript/gigasecond)
+- [Hello World](./javascript/hello-world)
+- [High Score Board](./javascript/high-score-board)
 - [Lasagna](./javascript/lasagna)
 - [Mixed Juices](./javascript/mixed-juices)
 - [Pangram](./javascript/pangram)
