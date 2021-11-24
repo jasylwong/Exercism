@@ -8,11 +8,13 @@ For more info on each challenge, see the README in the relevant sub-folder.
 ### Core exercises completed:
 
 - [Annalyn's Infiltration](./javascript/annalyns-infiltration)
+- [Bird Watcher](./javascript/bird-watcher)
 - [Hello World](./javascript/hello-world)
 - [Elyses Enchantments](./javascript/elyses-enchantments)
 - [Freelancer Rates](./javascript/freelancer-rates)
 - [Gigasecond](./javascript/gigasecond)
 - [Lasagna](./javascript/lasagna)
+- [Mixed Juices](./javascript/mixed-juices)
 - [Pangram](./javascript/pangram)
 - [Poetry Club Door Policy](./javascript/poetry-club-door-policy)
 - [Resistor Color](./javascript/resistor-color)
