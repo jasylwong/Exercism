@@ -7,6 +7,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 # JavaScript Track
 ### Core exercises completed:
 
+- [Amusement Park](./javascript/amusement-park)
 - [Annalyn's Infiltration](./javascript/annalyns-infiltration)
 - [Bird Watcher](./javascript/bird-watcher)
 - [Elyses Enchantments](./javascript/elyses-enchantments)
