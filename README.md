@@ -11,6 +11,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Annalyn's Infiltration](./javascript/annalyns-infiltration)
 - [Bird Watcher](./javascript/bird-watcher)
 - [Elyses Enchantments](./javascript/elyses-enchantments)
+- [Factory Sensors](./javascript/factory-sensors)
 - [Freelancer Rates](./javascript/freelancer-rates)
 - [Gigasecond](./javascript/gigasecond)
 - [Hello World](./javascript/hello-world)
