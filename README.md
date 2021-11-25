@@ -16,6 +16,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Hello World](./javascript/hello-world)
 - [High Score Board](./javascript/high-score-board)
 - [Lasagna](./javascript/lasagna)
+- [Lasagna Master](./javascript/lasagna-master)
 - [Mixed Juices](./javascript/mixed-juices)
 - [Pangram](./javascript/pangram)
 - [Poetry Club Door Policy](./javascript/poetry-club-door-policy)
