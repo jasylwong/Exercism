@@ -10,6 +10,8 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Amusement Park](./javascript/amusement-park)
 - [Annalyn's Infiltration](./javascript/annalyns-infiltration)
 - [Bird Watcher](./javascript/bird-watcher)
+- [Coordinate Transformation](./javascript/coordinate-transformation)
+- [Custom Signs](./javascript/custom-signs)
 - [Elyses Enchantments](./javascript/elyses-enchantments)
 - [Factory Sensors](./javascript/factory-sensors)
 - [Freelancer Rates](./javascript/freelancer-rates)
