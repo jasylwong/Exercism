@@ -15,8 +15,8 @@
  *  translated coordinate pair in the form [x, y]
  */
 export function translate2d(dx, dy) {
-  return (x1, y1) => {
-    return [x1 + dx, y1 + dy];
+  return (x, y) => {
+    return [x + dx, y + dy];
   }
 }
 
@@ -31,8 +31,8 @@ export function translate2d(dx, dy) {
  *  scaled coordinate pair in the form [x, y]
  */
 export function scale2d(sx, sy) {
-  return (x1, y1) => {
-    return [x1 * sx, y1 * sy];
+  return (x, y) => {
+    return [x * sx, y * sy];
   }
 }
 
@@ -47,8 +47,10 @@ export function scale2d(sx, sy) {
  *  transformed coordinate pair in the form [x, y]
  */
 export function composeTransform(f, g) {
-  return (x1, y1) => {
-    return g(f(x1, y1)[0], f(x1, y1)[1]);
+  return (x, y) => {
+    const [x1, y1] = f(x, y);
+    
+    return g(x1, y1);
   }
 }
 
