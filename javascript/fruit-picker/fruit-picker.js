@@ -15,8 +15,8 @@ import { checkStatus, checkInventory } from './grocer';
  * Returns the service status as a boolean value
  * @return {boolean}
  */
-export function isServiceOnline(status) {
-  return checkStatus(status => status !== 'OFFLINE');
+export function isServiceOnline() {
+  return checkStatus(status => status === 'ONLINE')
 }
 
 /**
@@ -28,7 +28,9 @@ export function isServiceOnline(status) {
  * @return {AvailabilityAction} the result from checkInventory
  */
 export function pickFruit(variety, quantity, callback) {
-  throw new Error('Implement the pickFruit function');
+  let query = { variety: variety, quantity: quantity };
+  
+  return checkInventory(query, callback);
 }
 
 /**
