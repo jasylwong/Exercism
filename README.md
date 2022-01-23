@@ -15,6 +15,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Elyses Enchantments](./javascript/elyses-enchantments)
 - [Factory Sensors](./javascript/factory-sensors)
 - [Freelancer Rates](./javascript/freelancer-rates)
+- [Fruit Picker](./javascript/fruit-picker)
 - [Gigasecond](./javascript/gigasecond)
 - [Hello World](./javascript/hello-world)
 - [High Score Board](./javascript/high-score-board)
