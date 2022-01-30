@@ -14,6 +14,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Custom Signs](./javascript/custom-signs)
 - [Elyses Enchantments](./javascript/elyses-enchantments)
 - [Elyses Analytic Enchantments](./javascript/elyses-analytic-enchantments)
+- [Elyses Desctructured Enchantments](./javascript/elyses-desctructured-enchantments)
 - [Factory Sensors](./javascript/factory-sensors)
 - [Freelancer Rates](./javascript/freelancer-rates)
 - [Fruit Picker](./javascript/fruit-picker)
