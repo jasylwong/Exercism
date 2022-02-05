@@ -71,7 +71,7 @@ export function sandwichTrick(deck) {
  * @returns {number[]} deck with only 2s
  */
 export function twoIsSpecial(deck) {
-  throw new Error('Implement the twoIsSpecial function');
+  return deck.filter(card => card === 2)
 }
 
 /**
