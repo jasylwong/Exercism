@@ -5,3 +5,13 @@
  * exercise in this file. Do not forget to export the entities
  * you defined so they are available for the tests.
  */
+
+export function Size(width = 80, height = 60) {
+  this.width = width;
+  this.height = height;
+}
+
+Size.prototype.resize = function(newWidth = this.width, newHeight = this.height) {
+  this.width = newWidth;
+  this.height = newHeight;
+}
