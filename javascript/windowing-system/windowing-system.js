@@ -15,3 +15,14 @@ Size.prototype.resize = function(newWidth = this.width, newHeight = this.height)
   this.width = newWidth;
   this.height = newHeight;
 }
+
+
+export function Position(x = 0, y = 0) {
+  this.x = x;
+  this.y = y;
+}
+
+Position.prototype.move = function(newX = this.x, newY = this.y) {
+  this.x = newX;
+  this.y = newY;
+}
