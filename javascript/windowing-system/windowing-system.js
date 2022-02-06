@@ -26,3 +26,18 @@ Position.prototype.move = function(newX = this.x, newY = this.y) {
   this.x = newX;
   this.y = newY;
 }
+
+export class ProgramWindow {
+  constructor() {
+    this.screenSize = new Size(800, 600);
+    this.size = new Size();
+    this.position = new Position();
+  }
+
+  resize(newSize) {
+    const newWidth = Math.max(newSize.width, 1);
+    const newHeight = Math.max(newSize.height, 1);
+    
+    this.size.resize(newWidth, newHeight);
+  }
+}
