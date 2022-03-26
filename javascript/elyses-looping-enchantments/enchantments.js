@@ -11,9 +11,7 @@
 export function cardTypeCheck(stack, card) {
   let total = 0;
 
-  stack.forEach((current_card) => {
-    if(current_card === card) { total++ };
-  })
+  stack.forEach(current_card => total += (current_card == card))
 
   return total;
 }
@@ -28,9 +26,7 @@ export function cardTypeCheck(stack, card) {
 export function determineOddEvenCards(stack, type) {
   let total = 0;
   
-  for (let card of stack) {
-    if((card % 2 === 0) === type) { total++ };
-  }
+  for (let card of stack) { if((card % 2 === 0) === type) { total++ } }
 
   return total;
 }
