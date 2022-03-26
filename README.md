@@ -34,6 +34,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Space Age](./javascript/space-age)
 - [Two Fer](./javascript/two-fer)
 - [Vehicle Purchase](./javascript/vehicle-purchase)
+- [Windowing System](./javascript/windowing-system)
 
 ### Extra exercises completed:
 - [Collatz Conjecture](./javascript/collatz-conjecture)
