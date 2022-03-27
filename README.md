@@ -15,6 +15,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Elyses Enchantments](./javascript/elyses-enchantments)
 - [Elyses Analytic Enchantments](./javascript/elyses-analytic-enchantments)
 - [Elyses Desctructured Enchantments](./javascript/elyses-desctructured-enchantments)
+- [Elyses Looping Enchantments](./javascript/elyses-looping-enchantments)
 - [Elyses Transformative Enchantments](./javascript/elyses-transformative-enchantments)
 - [Factory Sensors](./javascript/factory-sensors)
 - [Freelancer Rates](./javascript/freelancer-rates)
