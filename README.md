@@ -27,6 +27,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Lasagna Master](./javascript/lasagna-master)
 - [Lucky Numbers](./javascript/lucky-numbers)
 - [Mixed Juices](./javascript/mixed-juices)
+- [Ozan's Playlist](./javascript/ozans-playlist)
 - [Pangram](./javascript/pangram)
 - [Poetry Club Door Policy](./javascript/poetry-club-door-policy)
 - [Resistor Color](./javascript/resistor-color)

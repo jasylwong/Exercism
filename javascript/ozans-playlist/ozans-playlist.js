@@ -22,7 +22,7 @@ export function removeDuplicates(playlist) {
  * @returns {boolean} whether the track is in the playlist
  */
 export function hasTrack(playlist, track) {
-  return playlist.includes(track);
+  return new Set(playlist).has(track);
 }
 
 /**
