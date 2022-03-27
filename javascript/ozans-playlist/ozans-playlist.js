@@ -11,7 +11,7 @@
  * @returns {string[]} new playlist with unique entries
  */
 export function removeDuplicates(playlist) {
-  throw new Error('Please implement the removeDuplicates function');
+  return [...new Set(playlist)];
 }
 
 /**
