@@ -41,7 +41,9 @@ export class TranslationService {
    * @returns {Promise<string[]>}
    */
   batch(texts) {
-    throw new Error('Implement the batch function');
+    if (texts.length === 0) { return Promise.reject(new BatchIsEmpty()) }
+
+    return Promise.all(texts.map(text => this.free(text)))
   }
 
   /**
