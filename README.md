@@ -34,6 +34,7 @@ For more info on each challenge, see the README in the relevant sub-folder.
 - [Resistor Color Duo](./javascript/resistor-color-duo)
 - [RNA Transcription](./javascript/rna-transcription)
 - [Space Age](./javascript/space-age)
+- [Translation Service](./javascript/translation-service)
 - [Two Fer](./javascript/two-fer)
 - [Vehicle Purchase](./javascript/vehicle-purchase)
 - [Windowing System](./javascript/windowing-system)

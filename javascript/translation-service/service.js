@@ -27,7 +27,7 @@ export class TranslationService {
    * @returns {Promise<string>}
    */
   free(text) {
-    return this.api.fetch(text).then(value => value['translation']);
+    return this.api.fetch(text).then(value => value.translation);
   }
 
   /**
@@ -76,7 +76,15 @@ export class TranslationService {
    * @returns {Promise<string>}
    */
   premium(text, minimumQuality) {
-    throw new Error('Implement the premium function');
+    return this.api.fetch(text)
+      .catch(() => this.request(text).then(() => this.api.fetch(text)))
+      .then(result => {
+        if (result.quality < minimumQuality) {
+          throw new QualityThresholdNotMet(text);
+        }
+
+        return result.translation;
+      })
   }
 }
 
